@@ -222,7 +222,7 @@ s. Section 20 on Obstruction of Justice;
 
 t. Section 24 on Cybercrime Investigation and Coordinating Center (CICC); and
 
-u. Section 26(a) on CICC�s Powers and Functions.
+u. Section 26(a) on CICC’s Powers and Functions.
 
 Some petitioners also raise the constitutionality of related Articles 353, 354, 361, and 362 of the RPC on the crime of libel.
 
@@ -232,39 +232,39 @@ Section 4(a)(1)
 
 Section 4(a)(1) provides:
 
-Section 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Section 4. Cybercrime Offenses. – The following acts constitute the offense of cybercrime punishable under this Act:
 
 (a) Offenses against the confidentiality, integrity and availability of computer data and systems:
 
-(1) Illegal Access. � The access to the whole or any part of a computer system without right.
+(1) Illegal Access. – The access to the whole or any part of a computer system without right.
 
 Petitioners contend that Section 4(a)(1) fails to meet the strict scrutiny standard required of laws that interfere with the fundamental rights of the people and should thus be struck down.
 
 The Court has in a way found the strict scrutiny standard, an American constitutional construct,1 useful in determining the constitutionality of laws that tend to target a class of things or persons. According to this standard, a legislative classification that impermissibly interferes with the exercise of fundamental right or operates to the peculiar class disadvantage of a suspect class is presumed unconstitutional. The burden is on the government to prove that the classification is necessary to achieve a compelling state interest and that it is the least restrictive means to protect such interest.2 Later, the strict scrutiny standard was used to assess the validity of laws dealing with the regulation of speech, gender, or race as well as other fundamental rights, as expansion from its earlier applications to equal protection.3
 
-In the cases before it, the Court finds nothing in Section 4(a)(1) that calls for the application of the strict scrutiny standard since no fundamental freedom, like speech, is involved in punishing what is essentially a condemnable act � accessing the computer system of another without right. It is a universally condemned conduct.4
+In the cases before it, the Court finds nothing in Section 4(a)(1) that calls for the application of the strict scrutiny standard since no fundamental freedom, like speech, is involved in punishing what is essentially a condemnable act – accessing the computer system of another without right. It is a universally condemned conduct.4
 
-Petitioners of course fear that this section will jeopardize the work of ethical hackers, professionals who employ tools and techniques used by criminal hackers but would neither damage the target systems nor steal information. Ethical hackers evaluate the target system�s security and report back to the owners the vulnerabilities they found in it and give instructions for how these can be remedied. Ethical hackers are the equivalent of independent auditors who come into an organization to verify its bookkeeping records.5
+Petitioners of course fear that this section will jeopardize the work of ethical hackers, professionals who employ tools and techniques used by criminal hackers but would neither damage the target systems nor steal information. Ethical hackers evaluate the target system’s security and report back to the owners the vulnerabilities they found in it and give instructions for how these can be remedied. Ethical hackers are the equivalent of independent auditors who come into an organization to verify its bookkeeping records.5
 
-Besides, a client�s engagement of an ethical hacker requires an agreement between them as to the extent of the search, the methods to be used, and the systems to be tested. This is referred to as the "get out of jail free card."6 Since the ethical hacker does his job with prior permission from the client, such permission would insulate him from the coverage of Section 4(a)(1).
+Besides, a client’s engagement of an ethical hacker requires an agreement between them as to the extent of the search, the methods to be used, and the systems to be tested. This is referred to as the "get out of jail free card."6 Since the ethical hacker does his job with prior permission from the client, such permission would insulate him from the coverage of Section 4(a)(1).
 
 Section 4(a)(3) of the Cybercrime Law
 
 Section 4(a)(3) provides:
 
-Section 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Section 4. Cybercrime Offenses. – The following acts constitute the offense of cybercrime punishable under this Act:
 
 (a) Offenses against the confidentiality, integrity and availability of computer data and systems:
 
 x x x x
 
-(3) Data Interference. � The intentional or reckless alteration, damaging, deletion or deterioration of computer data, electronic document, or electronic data message, without right, including the introduction or transmission of viruses.
+(3) Data Interference. – The intentional or reckless alteration, damaging, deletion or deterioration of computer data, electronic document, or electronic data message, without right, including the introduction or transmission of viruses.
 
 Petitioners claim that Section 4(a)(3) suffers from overbreadth in that, while it seeks to discourage data interference, it intrudes into the area of protected speech and expression, creating a chilling and deterrent effect on these guaranteed freedoms.
 
-Under the overbreadth doctrine, a proper governmental purpose, constitutionally subject to state regulation, may not be achieved by means that unnecessarily sweep its subject broadly, thereby invading the area of protected freedoms.7 But Section 4(a)(3) does not encroach on these freedoms at all. It simply punishes what essentially is a form of vandalism,8 the act of willfully destroying without right the things that belong to others, in this case their computer data, electronic document, or electronic data message. Such act has no connection to guaranteed freedoms. There is no freedom to destroy other people�s computer systems and private documents.
+Under the overbreadth doctrine, a proper governmental purpose, constitutionally subject to state regulation, may not be achieved by means that unnecessarily sweep its subject broadly, thereby invading the area of protected freedoms.7 But Section 4(a)(3) does not encroach on these freedoms at all. It simply punishes what essentially is a form of vandalism,8 the act of willfully destroying without right the things that belong to others, in this case their computer data, electronic document, or electronic data message. Such act has no connection to guaranteed freedoms. There is no freedom to destroy other people’s computer systems and private documents.
 
-All penal laws, like the cybercrime law, have of course an inherent chilling effect, an in terrorem effect9 or the fear of possible prosecution that hangs on the heads of citizens who are minded to step beyond the boundaries of what is proper. But to prevent the State from legislating criminal laws because they instill such kind of fear is to render the state powerless in addressing and penalizing socially harmful conduct.10 Here, the chilling effect that results in paralysis is an illusion since Section 4(a)(3) clearly describes the evil that it seeks to punish and creates no tendency to intimidate the free exercise of one�s constitutional rights.
+All penal laws, like the cybercrime law, have of course an inherent chilling effect, an in terrorem effect9 or the fear of possible prosecution that hangs on the heads of citizens who are minded to step beyond the boundaries of what is proper. But to prevent the State from legislating criminal laws because they instill such kind of fear is to render the state powerless in addressing and penalizing socially harmful conduct.10 Here, the chilling effect that results in paralysis is an illusion since Section 4(a)(3) clearly describes the evil that it seeks to punish and creates no tendency to intimidate the free exercise of one’s constitutional rights.
 
 Besides, the overbreadth challenge places on petitioners the heavy burden of proving that under no set of circumstances will Section 4(a)(3) be valid.11 Petitioner has failed to discharge this burden.
 
@@ -272,13 +272,13 @@ Section 4(a)(6) of the Cybercrime Law
 
 Section 4(a)(6) provides:
 
-Section 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Section 4. Cybercrime Offenses. – The following acts constitute the offense of cybercrime punishable under this Act:
 
 (a) Offenses against the confidentiality, integrity and availability of computer data and systems:
 
 x x x x
 
-(6) Cyber-squatting. � The acquisition of domain name over the internet in bad faith to profit, mislead, destroy the reputation, and deprive others from registering the same, if such a domain name is:
+(6) Cyber-squatting. – The acquisition of domain name over the internet in bad faith to profit, mislead, destroy the reputation, and deprive others from registering the same, if such a domain name is:
 
 (i) Similar, identical, or confusingly similar to an existing trademark registered with the appropriate government agency at the time of the domain name registration;
 
@@ -294,7 +294,7 @@ Section 4(b)(3) of the Cybercrime Law
 
 Section 4(b)(3) provides:
 
-Section 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Section 4. Cybercrime Offenses. – The following acts constitute the offense of cybercrime punishable under this Act:
 
 x x x x
 
@@ -302,7 +302,7 @@ b) Computer-related Offenses:
 
 x x x x
 
-(3) Computer-related Identity Theft. � The intentional acquisition, use, misuse, transfer, possession, alteration, or deletion of identifying information belonging to another, whether natural or juridical, without right: Provided: that if no damage has yet been caused, the penalty imposable shall be one (1) degree lower.
+(3) Computer-related Identity Theft. – The intentional acquisition, use, misuse, transfer, possession, alteration, or deletion of identifying information belonging to another, whether natural or juridical, without right: Provided: that if no damage has yet been caused, the penalty imposable shall be one (1) degree lower.
 
 Petitioners claim that Section 4(b)(3) violates the constitutional rights to due process and to privacy and correspondence, and transgresses the freedom of the press.
 
@@ -316,7 +316,7 @@ Two constitutional guarantees create these zones of privacy: (a) the right again
 
 The usual identifying information regarding a person includes his name, his citizenship, his residence address, his contact number, his place and date of birth, the name of his spouse if any, his occupation, and similar data.19 The law punishes those who acquire or use such identifying information without right, implicitly to cause damage. Petitioners simply fail to show how government effort to curb computer-related identity theft violates the right to privacy and correspondence as well as the right to due process of law.
 
-Also, the charge of invalidity of this section based on the overbreadth doctrine will not hold water since the specific conducts proscribed do not intrude into guaranteed freedoms like speech. Clearly, what this section regulates are specific actions: the acquisition, use, misuse or deletion of personal identifying data of another. There is no fundamental right to acquire another�s personal data.
+Also, the charge of invalidity of this section based on the overbreadth doctrine will not hold water since the specific conducts proscribed do not intrude into guaranteed freedoms like speech. Clearly, what this section regulates are specific actions: the acquisition, use, misuse or deletion of personal identifying data of another. There is no fundamental right to acquire another’s personal data.
 
 Further, petitioners fear that Section 4(b)(3) violates the freedom of the press in that journalists would be hindered from accessing the unrestricted user account of a person in the news to secure information about him that could be published. But this is not the essence of identity theft that the law seeks to prohibit and punish. Evidently, the theft of identity information must be intended for an illegitimate purpose. Moreover, acquiring and disseminating information made public by the user himself cannot be regarded as a form of theft.
 
@@ -326,19 +326,19 @@ Section 4(c)(1) of the Cybercrime Law
 
 Section 4(c)(1) provides:
 
-Sec. 4. Cybercrime Offenses.� The following acts constitute the offense of cybercrime punishable under this Act:
+Sec. 4. Cybercrime Offenses.– The following acts constitute the offense of cybercrime punishable under this Act:
 
 x x x x
 
 (c) Content-related Offenses:
 
-(1) Cybersex.� The willful engagement, maintenance, control, or operation, directly or indirectly, of any lascivious exhibition of sexual organs or sexual activity, with the aid of a computer system, for favor or consideration.
+(1) Cybersex.– The willful engagement, maintenance, control, or operation, directly or indirectly, of any lascivious exhibition of sexual organs or sexual activity, with the aid of a computer system, for favor or consideration.
 
 Petitioners claim that the above violates the freedom of expression clause of the Constitution.21 They express fear that private communications of sexual character between husband and wife or consenting adults, which are not regarded as crimes under the penal code, would now be regarded as crimes when done "for favor" in cyberspace. In common usage, the term "favor" includes "gracious kindness," "a special privilege or right granted or conceded," or "a token of love (as a ribbon) usually worn conspicuously."22 This meaning given to the term "favor" embraces socially tolerated trysts. The law as written would invite law enforcement agencies into the bedrooms of married couples or consenting individuals.
 
 But the deliberations of the Bicameral Committee of Congress on this section of the Cybercrime Prevention Act give a proper perspective on the issue. These deliberations show a lack of intent to penalize a "private showing x x x between and among two private persons x x x although that may be a form of obscenity to some."23 The understanding of those who drew up the cybercrime law is that the element of "engaging in a business" is necessary to constitute the illegal cybersex.24 The Act actually seeks to punish cyber prostitution, white slave trade, and pornography for favor and consideration. This includes interactive prostitution and pornography, i.e., by webcam.25
 
-The subject of Section 4(c)(1)�lascivious exhibition of sexual organs or sexual activity�is not novel. Article 201 of the RPC punishes "obscene publications and exhibitions and indecent shows." The Anti-Trafficking in Persons Act of 2003 penalizes those who "maintain or hire a person to engage in prostitution or pornography."26 The law defines prostitution as any act, transaction, scheme, or design involving the use of a person by another, for sexual intercourse or lascivious conduct in exchange for money, profit, or any other consideration.27
+The subject of Section 4(c)(1)—lascivious exhibition of sexual organs or sexual activity—is not novel. Article 201 of the RPC punishes "obscene publications and exhibitions and indecent shows." The Anti-Trafficking in Persons Act of 2003 penalizes those who "maintain or hire a person to engage in prostitution or pornography."26 The law defines prostitution as any act, transaction, scheme, or design involving the use of a person by another, for sexual intercourse or lascivious conduct in exchange for money, profit, or any other consideration.27
 
 The case of Nogales v. People28 shows the extent to which the State can regulate materials that serve no other purpose than satisfy the market for violence, lust, or pornography.29 The Court weighed the property rights of individuals against the public welfare. Private property, if containing pornographic materials, may be forfeited and destroyed. Likewise, engaging in sexual acts privately through internet connection, perceived by some as a right, has to be balanced with the mandate of the State to eradicate white slavery and the exploitation of women.
 
@@ -348,7 +348,7 @@ Section 4(c)(2) of the Cybercrime Law
 
 Section 4(c)(2) provides:
 
-Sec. 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Sec. 4. Cybercrime Offenses. – The following acts constitute the offense of cybercrime punishable under this Act:
 
 x x x x
 
@@ -356,9 +356,9 @@ x x x x
 
 x x x x
 
-(2) Child Pornography. � The unlawful or prohibited acts defined and punishable by Republic Act No. 9775 or the Anti-Child Pornography Act of 2009, committed through a computer system: Provided, That the penalty to be imposed shall be (1) one degree higher than that provided for in Republic Act No. 9775.
+(2) Child Pornography. — The unlawful or prohibited acts defined and punishable by Republic Act No. 9775 or the Anti-Child Pornography Act of 2009, committed through a computer system: Provided, That the penalty to be imposed shall be (1) one degree higher than that provided for in Republic Act No. 9775.
 
-It seems that the above merely expands the scope of the Anti-Child Pornography Act of 200931 (ACPA) to cover identical activities in cyberspace. In theory, nothing prevents the government from invoking the ACPA when prosecuting persons who commit child pornography using a computer system. Actually, ACPA�s definition of child pornography already embraces the use of "electronic, mechanical, digital, optical, magnetic or any other means." Notably, no one has questioned this ACPA provision.
+It seems that the above merely expands the scope of the Anti-Child Pornography Act of 200931 (ACPA) to cover identical activities in cyberspace. In theory, nothing prevents the government from invoking the ACPA when prosecuting persons who commit child pornography using a computer system. Actually, ACPA’s definition of child pornography already embraces the use of "electronic, mechanical, digital, optical, magnetic or any other means." Notably, no one has questioned this ACPA provision.
 
 Of course, the law makes the penalty higher by one degree when the crime is committed in cyberspace. But no one can complain since the intensity or duration of penalty is a legislative prerogative and there is rational basis for such higher penalty.32 The potential for uncontrolled proliferation of a particular piece of child pornography when uploaded in the cyberspace is incalculable.
 
@@ -370,7 +370,7 @@ Section 4(c)(3) of the Cybercrime Law
 
 Section 4(c)(3) provides:
 
-Sec. 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Sec. 4. Cybercrime Offenses. – The following acts constitute the offense of cybercrime punishable under this Act:
 
 x x x x
 
@@ -378,7 +378,7 @@ x x x x
 
 x x x x
 
-(3) Unsolicited Commercial Communications. � The transmission of commercial electronic communication with the use of computer system which seeks to advertise, sell, or offer for sale products and services are prohibited unless:
+(3) Unsolicited Commercial Communications. – The transmission of commercial electronic communication with the use of computer system which seeks to advertise, sell, or offer for sale products and services are prohibited unless:
 
 (i) There is prior affirmative consent from the recipient; or
 
@@ -392,9 +392,9 @@ x x x x
 
 (cc) The commercial electronic communication does not purposely include misleading information in any part of the message in order to induce the recipients to read the message.
 
-The above penalizes the transmission of unsolicited commercial communications, also known as "spam." The term "spam" surfaced in early internet chat rooms and interactive fantasy games. One who repeats the same sentence or comment was said to be making a "spam." The term referred to a Monty Python�s Flying Circus scene in which actors would keep saying "Spam, Spam, Spam, and Spam" when reading options from a menu.35
+The above penalizes the transmission of unsolicited commercial communications, also known as "spam." The term "spam" surfaced in early internet chat rooms and interactive fantasy games. One who repeats the same sentence or comment was said to be making a "spam." The term referred to a Monty Python’s Flying Circus scene in which actors would keep saying "Spam, Spam, Spam, and Spam" when reading options from a menu.35
 
-The Government, represented by the Solicitor General, points out that unsolicited commercial communications or spams are a nuisance that wastes the storage and network capacities of internet service providers, reduces the efficiency of commerce and technology, and interferes with the owner�s peaceful enjoyment of his property. Transmitting spams amounts to trespass to one�s privacy since the person sending out spams enters the recipient�s domain without prior permission. The OSG contends that commercial speech enjoys less protection in law.
+The Government, represented by the Solicitor General, points out that unsolicited commercial communications or spams are a nuisance that wastes the storage and network capacities of internet service providers, reduces the efficiency of commerce and technology, and interferes with the owner’s peaceful enjoyment of his property. Transmitting spams amounts to trespass to one’s privacy since the person sending out spams enters the recipient’s domain without prior permission. The OSG contends that commercial speech enjoys less protection in law.
 
 But, firstly, the government presents no basis for holding that unsolicited electronic ads reduce the "efficiency of computers." Secondly, people, before the arrival of the age of computers, have already been receiving such unsolicited ads by mail. These have never been outlawed as nuisance since people might have interest in such ads. What matters is that the recipient has the option of not opening or reading these mail ads. That is true with spams. Their recipients always have the option to delete or not to read them.
 
@@ -408,19 +408,19 @@ Petitioners dispute the constitutionality of both the penal code provisions on l
 
 The RPC provisions on libel read:
 
-Art. 353. Definition of libel. � A libel is public and malicious imputation of a crime, or of a vice or defect, real or imaginary, or any act, omission, condition, status, or circumstance tending to cause the dishonor, discredit, or contempt of a natural or juridical person, or to blacken the memory of one who is dead.
+Art. 353. Definition of libel. — A libel is public and malicious imputation of a crime, or of a vice or defect, real or imaginary, or any act, omission, condition, status, or circumstance tending to cause the dishonor, discredit, or contempt of a natural or juridical person, or to blacken the memory of one who is dead.
 
-Art. 354. Requirement for publicity. � Every defamatory imputation is presumed to be malicious, even if it be true, if no good intention and justifiable motive for making it is shown, except in the following cases:
+Art. 354. Requirement for publicity. — Every defamatory imputation is presumed to be malicious, even if it be true, if no good intention and justifiable motive for making it is shown, except in the following cases:
 
 1. A private communication made by any person to another in the performance of any legal, moral or social duty; and
 
 2. A fair and true report, made in good faith, without any comments or remarks, of any judicial, legislative or other official proceedings which are not of confidential nature, or of any statement, report or speech delivered in said proceedings, or of any other act performed by public officers in the exercise of their functions.
 
-Art. 355. Libel means by writings or similar means. � A libel committed by means of writing, printing, lithography, engraving, radio, phonograph, painting, theatrical exhibition, cinematographic exhibition, or any similar means, shall be punished by prision correccional in its minimum and medium periods or a fine ranging from 200 to 6,000 pesos, or both, in addition to the civil action which may be brought by the offended party.
+Art. 355. Libel means by writings or similar means. — A libel committed by means of writing, printing, lithography, engraving, radio, phonograph, painting, theatrical exhibition, cinematographic exhibition, or any similar means, shall be punished by prision correccional in its minimum and medium periods or a fine ranging from 200 to 6,000 pesos, or both, in addition to the civil action which may be brought by the offended party.
 
 The libel provision of the cybercrime law, on the other hand, merely incorporates to form part of it the provisions of the RPC on libel. Thus Section 4(c)(4) reads:
 
-Sec. 4. Cybercrime Offenses. � The following acts constitute the offense of cybercrime punishable under this Act:
+Sec. 4. Cybercrime Offenses. — The following acts constitute the offense of cybercrime punishable under this Act:
 
 x x x x
 
@@ -428,9 +428,9 @@ x x x x
 
 x x x x
 
-(4) Libel. � The unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, as amended, committed through a computer system or any other similar means which may be devised in the future.
+(4) Libel. — The unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, as amended, committed through a computer system or any other similar means which may be devised in the future.
 
-Petitioners lament that libel provisions of the penal code37 and, in effect, the libel provisions of the cybercrime law carry with them the requirement of "presumed malice" even when the latest jurisprudence already replaces it with the higher standard of "actual malice" as a basis for conviction.38 Petitioners argue that inferring "presumed malice" from the accused�s defamatory statement by virtue of Article 354 of the penal code infringes on his constitutionally guaranteed freedom of expression.
+Petitioners lament that libel provisions of the penal code37 and, in effect, the libel provisions of the cybercrime law carry with them the requirement of "presumed malice" even when the latest jurisprudence already replaces it with the higher standard of "actual malice" as a basis for conviction.38 Petitioners argue that inferring "presumed malice" from the accused’s defamatory statement by virtue of Article 354 of the penal code infringes on his constitutionally guaranteed freedom of expression.
 
 Petitioners would go further. They contend that the laws on libel should be stricken down as unconstitutional for otherwise good jurisprudence requiring "actual malice" could easily be overturned as the Court has done in Fermin v. People39 even where the offended parties happened to be public figures.
 
@@ -438,7 +438,7 @@ The elements of libel are: (a) the allegation of a discreditable act or conditio
 
 There is "actual malice" or malice in fact41 when the offender makes the defamatory statement with the knowledge that it is false or with reckless disregard of whether it was false or not.42 The reckless disregard standard used here requires a high degree of awareness of probable falsity. There must be sufficient evidence to permit the conclusion that the accused in fact entertained serious doubts as to the truth of the statement he published. Gross or even extreme negligence is not sufficient to establish actual malice.43
 
-The prosecution bears the burden of proving the presence of actual malice in instances where such element is required to establish guilt. The defense of absence of actual malice, even when the statement turns out to be false, is available where the offended party is a public official or a public figure, as in the cases of Vasquez (a barangay official) and Borjal (the Executive Director, First National Conference on Land Transportation). Since the penal code and implicitly, the cybercrime law, mainly target libel against private persons, the Court recognizes that these laws imply a stricter standard of "malice" to convict the author of a defamatory statement where the offended party is a public figure. Society�s interest and the maintenance of good government demand a full discussion of public affairs.44
+The prosecution bears the burden of proving the presence of actual malice in instances where such element is required to establish guilt. The defense of absence of actual malice, even when the statement turns out to be false, is available where the offended party is a public official or a public figure, as in the cases of Vasquez (a barangay official) and Borjal (the Executive Director, First National Conference on Land Transportation). Since the penal code and implicitly, the cybercrime law, mainly target libel against private persons, the Court recognizes that these laws imply a stricter standard of "malice" to convict the author of a defamatory statement where the offended party is a public figure. Society’s interest and the maintenance of good government demand a full discussion of public affairs.44
 
 Parenthetically, the Court cannot accept the proposition that its ruling in Fermin disregarded the higher standard of actual malice or malice in fact when it found Cristinelli Fermin guilty of committing libel against complainants who were public figures. Actually, the Court found the presence of malice in fact in that case. Thus:
 
@@ -448,11 +448,11 @@ Indeed, the Court took into account the relatively wide leeway given to utteranc
 
 But, where the offended party is a private individual, the prosecution need not prove the presence of malice. The law explicitly presumes its existence (malice in law) from the defamatory character of the assailed statement.45 For his defense, the accused must show that he has a justifiable reason for the defamatory statement even if it was in fact true.46
 
-Petitioners peddle the view that both the penal code and the Cybercrime Prevention Act violate the country�s obligations under the International Covenant of Civil and Political Rights (ICCPR). They point out that in Adonis v. Republic of the Philippines,47 the United Nations Human Rights Committee (UNHRC) cited its General Comment 34 to the effect that penal defamation laws should include the defense of truth.
+Petitioners peddle the view that both the penal code and the Cybercrime Prevention Act violate the country’s obligations under the International Covenant of Civil and Political Rights (ICCPR). They point out that in Adonis v. Republic of the Philippines,47 the United Nations Human Rights Committee (UNHRC) cited its General Comment 34 to the effect that penal defamation laws should include the defense of truth.
 
 But General Comment 34 does not say that the truth of the defamatory statement should constitute an all-encompassing defense. As it happens, Article 361 recognizes truth as a defense but under the condition that the accused has been prompted in making the statement by good motives and for justifiable ends. Thus:
 
-Art. 361. Proof of the truth. � In every criminal prosecution for libel, the truth may be given in evidence to the court and if it appears that the matter charged as libelous is true, and, moreover, that it was published with good motives and for justifiable ends, the defendants shall be acquitted.
+Art. 361. Proof of the truth. — In every criminal prosecution for libel, the truth may be given in evidence to the court and if it appears that the matter charged as libelous is true, and, moreover, that it was published with good motives and for justifiable ends, the defendants shall be acquitted.
 
 Proof of the truth of an imputation of an act or omission not constituting a crime shall not be admitted, unless the imputation shall have been made against Government employees with respect to facts related to the discharge of their official duties.
 
@@ -462,19 +462,19 @@ Besides, the UNHRC did not actually enjoin the Philippines, as petitioners urge,
 
 The Court agrees with the Solicitor General that libel is not a constitutionally protected speech and that the government has an obligation to protect private individuals from defamation. Indeed, cyberlibel is actually not a new crime since Article 353, in relation to Article 355 of the penal code, already punishes it. In effect, Section 4(c)(4) above merely affirms that online defamation constitutes "similar means" for committing libel.
 
-But the Court�s acquiescence goes only insofar as the cybercrime law penalizes the author of the libelous statement or article. Cyberlibel brings with it certain intricacies, unheard of when the penal code provisions on libel were enacted. The culture associated with internet media is distinct from that of print.
+But the Court’s acquiescence goes only insofar as the cybercrime law penalizes the author of the libelous statement or article. Cyberlibel brings with it certain intricacies, unheard of when the penal code provisions on libel were enacted. The culture associated with internet media is distinct from that of print.
 
-The internet is characterized as encouraging a freewheeling, anything-goes writing style.50 In a sense, they are a world apart in terms of quickness of the reader�s reaction to defamatory statements posted in cyberspace, facilitated by one-click reply options offered by the networking site as well as by the speed with which such reactions are disseminated down the line to other internet users. Whether these reactions to defamatory statement posted on the internet constitute aiding and abetting libel, acts that Section 5 of the cybercrime law punishes, is another matter that the Court will deal with next in relation to Section 5 of the law.
+The internet is characterized as encouraging a freewheeling, anything-goes writing style.50 In a sense, they are a world apart in terms of quickness of the reader’s reaction to defamatory statements posted in cyberspace, facilitated by one-click reply options offered by the networking site as well as by the speed with which such reactions are disseminated down the line to other internet users. Whether these reactions to defamatory statement posted on the internet constitute aiding and abetting libel, acts that Section 5 of the cybercrime law punishes, is another matter that the Court will deal with next in relation to Section 5 of the law.
 
 Section 5 of the Cybercrime Law
 
 Section 5 provides:
 
-Sec. 5. Other Offenses. � The following acts shall also constitute an offense:
+Sec. 5. Other Offenses. — The following acts shall also constitute an offense:
 
-(a) Aiding or Abetting in the Commission of Cybercrime. � Any person who willfully abets or aids in the commission of any of the offenses enumerated in this Act shall be held liable.
+(a) Aiding or Abetting in the Commission of Cybercrime. – Any person who willfully abets or aids in the commission of any of the offenses enumerated in this Act shall be held liable.
 
-(b) Attempt in the Commission of Cybercrime. � Any person who willfully attempts to commit any of the offenses enumerated in this Act shall be held liable.
+(b) Attempt in the Commission of Cybercrime. — Any person who willfully attempts to commit any of the offenses enumerated in this Act shall be held liable.
 
 Petitioners assail the constitutionality of Section 5 that renders criminally liable any person who willfully abets or aids in the commission or attempts to commit any of the offenses enumerated as cybercrimes. It suffers from overbreadth, creating a chilling and deterrent effect on protected expression.
 
@@ -486,17 +486,17 @@ But, when it comes to certain cybercrimes, the waters are muddier and the line o
 
 According to the 2011 Southeast Asia Digital Consumer Report, 33% of Filipinos have accessed the internet within a year, translating to about 31 million users.55 Based on a recent survey, the Philippines ranks 6th in the top 10 most engaged countries for social networking.56 Social networking sites build social relations among people who, for example, share interests, activities, backgrounds, or real-life connections.57
 
-Two of the most popular of these sites are Facebook and Twitter. As of late 2012, 1.2 billion people with shared interests use Facebook to get in touch.58 Users register at this site, create a personal profile or an open book of who they are, add other users as friends, and exchange messages, including automatic notifications when they update their profile.59 A user can post a statement, a photo, or a video on Facebook, which can be made visible to anyone, depending on the user�s privacy settings.
+Two of the most popular of these sites are Facebook and Twitter. As of late 2012, 1.2 billion people with shared interests use Facebook to get in touch.58 Users register at this site, create a personal profile or an open book of who they are, add other users as friends, and exchange messages, including automatic notifications when they update their profile.59 A user can post a statement, a photo, or a video on Facebook, which can be made visible to anyone, depending on the user’s privacy settings.
 
-If the post is made available to the public, meaning to everyone and not only to his friends, anyone on Facebook can react to the posting, clicking any of several buttons of preferences on the program�s screen such as "Like," "Comment," or "Share." "Like" signifies that the reader likes the posting while "Comment" enables him to post online his feelings or views about the same, such as "This is great!" When a Facebook user "Shares" a posting, the original "posting" will appear on his own Facebook profile, consequently making it visible to his down-line Facebook Friends.
+If the post is made available to the public, meaning to everyone and not only to his friends, anyone on Facebook can react to the posting, clicking any of several buttons of preferences on the program’s screen such as "Like," "Comment," or "Share." "Like" signifies that the reader likes the posting while "Comment" enables him to post online his feelings or views about the same, such as "This is great!" When a Facebook user "Shares" a posting, the original "posting" will appear on his own Facebook profile, consequently making it visible to his down-line Facebook Friends.
 
-Twitter, on the other hand, is an internet social networking and microblogging service that enables its users to send and read short text-based messages of up to 140 characters. These are known as "Tweets." Microblogging is the practice of posting small pieces of digital content�which could be in the form of text, pictures, links, short videos, or other media�on the internet. Instead of friends, a Twitter user has "Followers," those who subscribe to this particular user�s posts, enabling them to read the same, and "Following," those whom this particular user is subscribed to, enabling him to read their posts. Like Facebook, a Twitter user can make his tweets available only to his Followers, or to the general public. If a post is available to the public, any Twitter user can "Retweet" a given posting. Retweeting is just reposting or republishing another person�s tweet without the need of copying and pasting it.
+Twitter, on the other hand, is an internet social networking and microblogging service that enables its users to send and read short text-based messages of up to 140 characters. These are known as "Tweets." Microblogging is the practice of posting small pieces of digital content—which could be in the form of text, pictures, links, short videos, or other media—on the internet. Instead of friends, a Twitter user has "Followers," those who subscribe to this particular user’s posts, enabling them to read the same, and "Following," those whom this particular user is subscribed to, enabling him to read their posts. Like Facebook, a Twitter user can make his tweets available only to his Followers, or to the general public. If a post is available to the public, any Twitter user can "Retweet" a given posting. Retweeting is just reposting or republishing another person’s tweet without the need of copying and pasting it.
 
 In the cyberworld, there are many actors: a) the blogger who originates the assailed statement; b) the blog service provider like Yahoo; c) the internet service provider like PLDT, Smart, Globe, or Sun; d) the internet café that may have provided the computer used for posting the blog; e) the person who makes a favorable comment on the blog; and f) the person who posts a link to the blog site.60 Now, suppose Maria (a blogger) maintains a blog on WordPress.com (blog service provider). She needs the internet to access her blog so she subscribes to Sun Broadband (Internet Service Provider).
 
-One day, Maria posts on her internet account the statement that a certain married public official has an illicit affair with a movie star. Linda, one of Maria�s friends who sees this post, comments online, "Yes, this is so true! They are so immoral." Maria�s original post is then multiplied by her friends and the latter�s friends, and down the line to friends of friends almost ad infinitum. Nena, who is a stranger to both Maria and Linda, comes across this blog, finds it interesting and so shares the link to this apparently defamatory blog on her Twitter account. Nena�s "Followers" then "Retweet" the link to that blog site.
+One day, Maria posts on her internet account the statement that a certain married public official has an illicit affair with a movie star. Linda, one of Maria’s friends who sees this post, comments online, "Yes, this is so true! They are so immoral." Maria’s original post is then multiplied by her friends and the latter’s friends, and down the line to friends of friends almost ad infinitum. Nena, who is a stranger to both Maria and Linda, comes across this blog, finds it interesting and so shares the link to this apparently defamatory blog on her Twitter account. Nena’s "Followers" then "Retweet" the link to that blog site.
 
-Pamela, a Twitter user, stumbles upon a random person�s "Retweet" of Nena�s original tweet and posts this on her Facebook account. Immediately, Pamela�s Facebook Friends start Liking and making Comments on the assailed posting. A lot of them even press the Share button, resulting in the further spread of the original posting into tens, hundreds, thousands, and greater postings.
+Pamela, a Twitter user, stumbles upon a random person’s "Retweet" of Nena’s original tweet and posts this on her Facebook account. Immediately, Pamela’s Facebook Friends start Liking and making Comments on the assailed posting. A lot of them even press the Share button, resulting in the further spread of the original posting into tens, hundreds, thousands, and greater postings.
 
 The question is: are online postings such as "Liking" an openly defamatory statement, "Commenting" on it, or "Sharing" it with others, to be regarded as "aiding or abetting?" In libel in the physical world, if Nestor places on the office bulletin board a small poster that says, "Armand is a thief!," he could certainly be charged with libel. If Roger, seeing the poster, writes on it, "I like this!," that could not be libel since he did not author the poster. If Arthur, passing by and noticing the poster, writes on it, "Correct!," would that be libel? No, for he merely expresses agreement with the statement on the poster. He still is not its author. Besides, it is not clear if aiding or abetting libel in the physical world is a crime.
 
@@ -510,21 +510,21 @@ The United States Supreme Court faced the same issue in Reno v. American Civil L
 
 "obscene or indecent" communications to any recipient under 18 years of age; and (2) the knowing use of an interactive computer service to send to a specific person or persons under 18 years of age or to display in a manner available to a person under 18 years of age communications that, in context, depict or describe, in terms "patently offensive" as measured by contemporary community standards, sexual or excretory activities or organs.
 
-Those who challenged the Act claim that the law violated the First Amendment�s guarantee of freedom of speech for being overbroad. The U.S. Supreme Court agreed and ruled:
+Those who challenged the Act claim that the law violated the First Amendment’s guarantee of freedom of speech for being overbroad. The U.S. Supreme Court agreed and ruled:
 
-The vagueness of the Communications Decency Act of 1996 (CDA), 47 U.S.C.S. �223, is a matter of special concern for two reasons. First, the CDA is a content-based regulation of speech. The vagueness of such a regulation raises special U.S. Const. amend. I concerns because of its obvious chilling effect on free speech. Second, the CDA is a criminal statute. In addition to the opprobrium and stigma of a criminal conviction, the CDA threatens violators with penalties including up to two years in prison for each act of violation. The severity of criminal sanctions may well cause speakers to remain silent rather than communicate even arguably unlawful words, ideas, and images. As a practical matter, this increased deterrent effect, coupled with the risk of discriminatory enforcement of vague regulations, poses greater U.S. Const. amend. I concerns than those implicated by certain civil regulations.
+The vagueness of the Communications Decency Act of 1996 (CDA), 47 U.S.C.S. §223, is a matter of special concern for two reasons. First, the CDA is a content-based regulation of speech. The vagueness of such a regulation raises special U.S. Const. amend. I concerns because of its obvious chilling effect on free speech. Second, the CDA is a criminal statute. In addition to the opprobrium and stigma of a criminal conviction, the CDA threatens violators with penalties including up to two years in prison for each act of violation. The severity of criminal sanctions may well cause speakers to remain silent rather than communicate even arguably unlawful words, ideas, and images. As a practical matter, this increased deterrent effect, coupled with the risk of discriminatory enforcement of vague regulations, poses greater U.S. Const. amend. I concerns than those implicated by certain civil regulations.
 
 x x x x
 
-The Communications Decency Act of 1996 (CDA), 47 U.S.C.S. � 223, presents a great threat of censoring speech that, in fact, falls outside the statute's scope. Given the vague contours of the coverage of the statute, it unquestionably silences some speakers whose messages would be entitled to constitutional protection. That danger provides further reason for insisting that the statute not be overly broad. The CDA�s burden on protected speech cannot be justified if it could be avoided by a more carefully drafted statute. (Emphasis ours)
+The Communications Decency Act of 1996 (CDA), 47 U.S.C.S. § 223, presents a great threat of censoring speech that, in fact, falls outside the statute's scope. Given the vague contours of the coverage of the statute, it unquestionably silences some speakers whose messages would be entitled to constitutional protection. That danger provides further reason for insisting that the statute not be overly broad. The CDA’s burden on protected speech cannot be justified if it could be avoided by a more carefully drafted statute. (Emphasis ours)
 
-Libel in the cyberspace can of course stain a person�s image with just one click of the mouse. Scurrilous statements can spread and travel fast across the globe like bad news. Moreover, cyberlibel often goes hand in hand with cyberbullying that oppresses the victim, his relatives, and friends, evoking from mild to disastrous reactions. Still, a governmental purpose, which seeks to regulate the use of this cyberspace communication technology to protect a person�s reputation and peace of mind, cannot adopt means that will unnecessarily and broadly sweep, invading the area of protected freedoms.62
+Libel in the cyberspace can of course stain a person’s image with just one click of the mouse. Scurrilous statements can spread and travel fast across the globe like bad news. Moreover, cyberlibel often goes hand in hand with cyberbullying that oppresses the victim, his relatives, and friends, evoking from mild to disastrous reactions. Still, a governmental purpose, which seeks to regulate the use of this cyberspace communication technology to protect a person’s reputation and peace of mind, cannot adopt means that will unnecessarily and broadly sweep, invading the area of protected freedoms.62
 
 If such means are adopted, self-inhibition borne of fear of what sinister predicaments await internet users will suppress otherwise robust discussion of public issues. Democracy will be threatened and with it, all liberties. Penal laws should provide reasonably clear guidelines for law enforcement officials and triers of facts to prevent arbitrary and discriminatory enforcement.63 The terms "aiding or abetting" constitute broad sweep that generates chilling effect on those who express themselves through cyberspace posts, comments, and other messages.64 Hence, Section 5 of the cybercrime law that punishes "aiding or abetting" libel on the cyberspace is a nullity.
 
-When a penal statute encroaches upon the freedom of speech, a facial challenge grounded on the void-for-vagueness doctrine is acceptable. The inapplicability of the doctrine must be carefully delineated. As Justice Antonio T. Carpio explained in his dissent in Romualdez v. Commission on Elections,65 "we must view these statements of the Court on the inapplicability of the overbreadth and vagueness doctrines to penal statutes as appropriate only insofar as these doctrines are used to mount �facial� challenges to penal statutes not involving free speech."
+When a penal statute encroaches upon the freedom of speech, a facial challenge grounded on the void-for-vagueness doctrine is acceptable. The inapplicability of the doctrine must be carefully delineated. As Justice Antonio T. Carpio explained in his dissent in Romualdez v. Commission on Elections,65 "we must view these statements of the Court on the inapplicability of the overbreadth and vagueness doctrines to penal statutes as appropriate only insofar as these doctrines are used to mount ‘facial’ challenges to penal statutes not involving free speech."
 
-In an "as applied" challenge, the petitioner who claims a violation of his constitutional right can raise any constitutional ground � absence of due process, lack of fair notice, lack of ascertainable standards, overbreadth, or vagueness. Here, one can challenge the constitutionality of a statute only if he asserts a violation of his own rights. It prohibits one from assailing the constitutionality of the statute based solely on the violation of the rights of third persons not before the court. This rule is also known as the prohibition against third-party standing.66
+In an "as applied" challenge, the petitioner who claims a violation of his constitutional right can raise any constitutional ground – absence of due process, lack of fair notice, lack of ascertainable standards, overbreadth, or vagueness. Here, one can challenge the constitutionality of a statute only if he asserts a violation of his own rights. It prohibits one from assailing the constitutionality of the statute based solely on the violation of the rights of third persons not before the court. This rule is also known as the prohibition against third-party standing.66
 
 But this rule admits of exceptions. A petitioner may for instance mount a "facial" challenge to the constitutionality of a statute even if he claims no violation of his own rights under the assailed statute where it involves free speech on grounds of overbreadth or vagueness of the statute.
 
@@ -532,11 +532,11 @@ The rationale for this exception is to counter the "chilling effect" on protecte
 
 As already stated, the cyberspace is an incomparable, pervasive medium of communication. It is inevitable that any government threat of punishment regarding certain uses of the medium creates a chilling effect on the constitutionally-protected freedom of expression of the great masses that use it. In this case, the particularly complex web of interaction on social media websites would give law enforcers such latitude that they could arbitrarily or selectively enforce the law.
 
-Who is to decide when to prosecute persons who boost the visibility of a posting on the internet by liking it? Netizens are not given "fair notice" or warning as to what is criminal conduct and what is lawful conduct. When a case is filed, how will the court ascertain whether or not one netizen�s comment aided and abetted a cybercrime while another comment did not?
+Who is to decide when to prosecute persons who boost the visibility of a posting on the internet by liking it? Netizens are not given "fair notice" or warning as to what is criminal conduct and what is lawful conduct. When a case is filed, how will the court ascertain whether or not one netizen’s comment aided and abetted a cybercrime while another comment did not?
 
 Of course, if the "Comment" does not merely react to the original posting but creates an altogether new defamatory story against Armand like "He beats his wife and children," then that should be considered an original posting published on the internet. Both the penal code and the cybercrime law clearly punish authors of defamatory publications. Make no mistake, libel destroys reputations that society values. Allowed to cascade in the internet, it will destroy relationships and, under certain circumstances, will generate enmity and tension between social or economic groups, races, or religions, exacerbating existing tension in their relationships.
 
-In regard to the crime that targets child pornography, when "Google procures, stores, and indexes child pornography and facilitates the completion of transactions involving the dissemination of child pornography," does this make Google and its users aiders and abettors in the commission of child pornography crimes?68 Byars highlights a feature in the American law on child pornography that the Cybercrimes law lacks�the exemption of a provider or notably a plain user of interactive computer service from civil liability for child pornography as follows:
+In regard to the crime that targets child pornography, when "Google procures, stores, and indexes child pornography and facilitates the completion of transactions involving the dissemination of child pornography," does this make Google and its users aiders and abettors in the commission of child pornography crimes?68 Byars highlights a feature in the American law on child pornography that the Cybercrimes law lacks—the exemption of a provider or notably a plain user of interactive computer service from civil liability for child pornography as follows:
 
 No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider and cannot be held civilly liable for any action voluntarily taken in good faith to restrict access to or availability of material that the provider or user considers to be obscene...whether or not such material is constitutionally protected.69
 
@@ -546,7 +546,7 @@ Section 5 with respect to Section 4(c)(4) is unconstitutional. Its vagueness rai
 
 But the crime of aiding or abetting the commission of cybercrimes under Section 5 should be permitted to apply to Section 4(a)(1) on Illegal Access, Section 4(a)(2) on Illegal Interception, Section 4(a)(3) on Data Interference, Section 4(a)(4) on System Interference, Section 4(a)(5) on Misuse of Devices, Section 4(a)(6) on Cyber-squatting, Section 4(b)(1) on Computer-related Forgery, Section 4(b)(2) on Computer-related Fraud, Section 4(b)(3) on Computer-related Identity Theft, and Section 4(c)(1) on Cybersex. None of these offenses borders on the exercise of the freedom of expression.
 
-The crime of willfully attempting to commit any of these offenses is for the same reason not objectionable. A hacker may for instance have done all that is necessary to illegally access another party�s computer system but the security employed by the system�s lawful owner could frustrate his effort. Another hacker may have gained access to usernames and passwords of others but fail to use these because the system supervisor is alerted.72 If Section 5 that punishes any person who willfully attempts to commit this specific offense is not upheld, the owner of the username and password could not file a complaint against him for attempted hacking. But this is not right. The hacker should not be freed from liability simply because of the vigilance of a lawful owner or his supervisor.
+The crime of willfully attempting to commit any of these offenses is for the same reason not objectionable. A hacker may for instance have done all that is necessary to illegally access another party’s computer system but the security employed by the system’s lawful owner could frustrate his effort. Another hacker may have gained access to usernames and passwords of others but fail to use these because the system supervisor is alerted.72 If Section 5 that punishes any person who willfully attempts to commit this specific offense is not upheld, the owner of the username and password could not file a complaint against him for attempted hacking. But this is not right. The hacker should not be freed from liability simply because of the vigilance of a lawful owner or his supervisor.
 
 Petitioners of course claim that Section 5 lacks positive limits and could cover the innocent.73 While this may be true with respect to cybercrimes that tend to sneak past the area of free expression, any attempt to commit the other acts specified in Section 4(a)(1), Section 4(a)(2), Section 4(a)(3), Section 4(a)(4), Section 4(a)(5), Section 4(a)(6), Section 4(b)(1), Section 4(b)(2), Section 4(b)(3), and Section 4(c)(1) as well as the actors aiding and abetting the commission of such acts can be identified with some reasonable certainty through adroit tracking of their works. Absent concrete proof of the same, the innocent will of course be spared.
 
@@ -562,19 +562,19 @@ Section 7 of the Cybercrime Law
 
 Section 7 provides:
 
-Sec. 7. Liability under Other Laws. � A prosecution under this Act shall be without prejudice to any liability for violation of any provision of the Revised Penal Code, as amended, or special laws.
+Sec. 7. Liability under Other Laws. — A prosecution under this Act shall be without prejudice to any liability for violation of any provision of the Revised Penal Code, as amended, or special laws.
 
 The Solicitor General points out that Section 7 merely expresses the settled doctrine that a single set of acts may be prosecuted and penalized simultaneously under two laws, a special law and the Revised Penal Code. When two different laws define two crimes, prior jeopardy as to one does not bar prosecution of the other although both offenses arise from the same fact, if each crime involves some important act which is not an essential element of the other.74 With the exception of the crimes of online libel and online child pornography, the Court would rather leave the determination of the correct application of Section 7 to actual cases.
 
 Online libel is different. There should be no question that if the published material on print, said to be libelous, is again posted online or vice versa, that identical material cannot be the subject of two separate libels. The two offenses, one a violation of Article 353 of the Revised Penal Code and the other a violation of Section 4(c)(4) of R.A. 10175 involve essentially the same elements and are in fact one and the same offense. Indeed, the OSG itself claims that online libel under Section 4(c)(4) is not a new crime but is one already punished under Article 353. Section 4(c)(4) merely establishes the computer system as another means of publication.75 Charging the offender under both laws would be a blatant violation of the proscription against double jeopardy.76
 
-The same is true with child pornography committed online. Section 4(c)(2) merely expands the ACPA�s scope so as to include identical activities in cyberspace. As previously discussed, ACPA�s definition of child pornography in fact already covers the use of "electronic, mechanical, digital, optical, magnetic or any other means." Thus, charging the offender under both Section 4(c)(2) and ACPA would likewise be tantamount to a violation of the constitutional prohibition against double jeopardy.
+The same is true with child pornography committed online. Section 4(c)(2) merely expands the ACPA’s scope so as to include identical activities in cyberspace. As previously discussed, ACPA’s definition of child pornography in fact already covers the use of "electronic, mechanical, digital, optical, magnetic or any other means." Thus, charging the offender under both Section 4(c)(2) and ACPA would likewise be tantamount to a violation of the constitutional prohibition against double jeopardy.
 
 Section 8 of the Cybercrime Law
 
 Section 8 provides:
 
-Sec. 8. Penalties. � Any person found guilty of any of the punishable acts enumerated in Sections 4(a) and 4(b) of this Act shall be punished with imprisonment of prision mayor or a fine of at least Two hundred thousand pesos (Ph₱200,000.00) up to a maximum amount commensurate to the damage incurred or both.
+Sec. 8. Penalties. — Any person found guilty of any of the punishable acts enumerated in Sections 4(a) and 4(b) of this Act shall be punished with imprisonment of prision mayor or a fine of at least Two hundred thousand pesos (Ph₱200,000.00) up to a maximum amount commensurate to the damage incurred or both.
 
 Any person found guilty of the punishable act under Section 4(a)(5) shall be punished with imprisonment of prision mayor or a fine of not more than Five hundred thousand pesos (Ph₱500,000.00) or both.
 
@@ -598,9 +598,9 @@ Section 12 of the Cybercrime Law
 
 Section 12 provides:
 
-Sec. 12. Real-Time Collection of Traffic Data. � Law enforcement authorities, with due cause, shall be authorized to collect or record by technical or electronic means traffic data in real-time associated with specified communications transmitted by means of a computer system.
+Sec. 12. Real-Time Collection of Traffic Data. — Law enforcement authorities, with due cause, shall be authorized to collect or record by technical or electronic means traffic data in real-time associated with specified communications transmitted by means of a computer system.
 
-Traffic data refer only to the communication�s origin, destination, route, time, date, size, duration, or type of underlying service, but not content, nor identities.
+Traffic data refer only to the communication’s origin, destination, route, time, date, size, duration, or type of underlying service, but not content, nor identities.
 
 All other data to be collected or seized or disclosed will require a court warrant.
 
@@ -616,29 +616,29 @@ Undoubtedly, the State has a compelling interest in enacting the cybercrime law 
 
 Chapter IV of the cybercrime law, of which the collection or recording of traffic data is a part, aims to provide law enforcement authorities with the power they need for spotting, preventing, and investigating crimes committed in cyberspace. Crime-fighting is a state business. Indeed, as Chief Justice Sereno points out, the Budapest Convention on Cybercrimes requires signatory countries to adopt legislative measures to empower state authorities to collect or record "traffic data, in real time, associated with specified communications."83 And this is precisely what Section 12 does. It empowers law enforcement agencies in this country to collect or record such data.
 
-But is not evidence of yesterday�s traffic data, like the scene of the crime after it has been committed, adequate for fighting cybercrimes and, therefore, real-time data is superfluous for that purpose? Evidently, it is not. Those who commit the crimes of accessing a computer system without right,84 transmitting viruses,85 lasciviously exhibiting sexual organs or sexual activity for favor or consideration;86 and producing child pornography87 could easily evade detection and prosecution by simply moving the physical location of their computers or laptops from day to day. In this digital age, the wicked can commit cybercrimes from virtually anywhere: from internet cafés, from kindred places that provide free internet services, and from unregistered mobile internet connectors. Criminals using cellphones under pre-paid arrangements and with unregistered SIM cards do not have listed addresses and can neither be located nor identified. There are many ways the cyber criminals can quickly erase their tracks. Those who peddle child pornography could use relays of computers to mislead law enforcement authorities regarding their places of operations. Evidently, it is only real-time traffic data collection or recording and a subsequent recourse to court-issued search and seizure warrant that can succeed in ferreting them out.
+But is not evidence of yesterday’s traffic data, like the scene of the crime after it has been committed, adequate for fighting cybercrimes and, therefore, real-time data is superfluous for that purpose? Evidently, it is not. Those who commit the crimes of accessing a computer system without right,84 transmitting viruses,85 lasciviously exhibiting sexual organs or sexual activity for favor or consideration;86 and producing child pornography87 could easily evade detection and prosecution by simply moving the physical location of their computers or laptops from day to day. In this digital age, the wicked can commit cybercrimes from virtually anywhere: from internet cafés, from kindred places that provide free internet services, and from unregistered mobile internet connectors. Criminals using cellphones under pre-paid arrangements and with unregistered SIM cards do not have listed addresses and can neither be located nor identified. There are many ways the cyber criminals can quickly erase their tracks. Those who peddle child pornography could use relays of computers to mislead law enforcement authorities regarding their places of operations. Evidently, it is only real-time traffic data collection or recording and a subsequent recourse to court-issued search and seizure warrant that can succeed in ferreting them out.
 
-Petitioners of course point out that the provisions of Section 12 are too broad and do not provide ample safeguards against crossing legal boundaries and invading the people�s right to privacy. The concern is understandable. Indeed, the Court recognizes in Morfe v. Mutuc88 that certain constitutional guarantees work together to create zones of privacy wherein governmental powers may not intrude, and that there exists an independent constitutional right of privacy. Such right to be left alone has been regarded as the beginning of all freedoms.89
+Petitioners of course point out that the provisions of Section 12 are too broad and do not provide ample safeguards against crossing legal boundaries and invading the people’s right to privacy. The concern is understandable. Indeed, the Court recognizes in Morfe v. Mutuc88 that certain constitutional guarantees work together to create zones of privacy wherein governmental powers may not intrude, and that there exists an independent constitutional right of privacy. Such right to be left alone has been regarded as the beginning of all freedoms.89
 
-But that right is not unqualified. In Whalen v. Roe,90 the United States Supreme Court classified privacy into two categories: decisional privacy and informational privacy. Decisional privacy involves the right to independence in making certain important decisions, while informational privacy refers to the interest in avoiding disclosure of personal matters. It is the latter right�the right to informational privacy�that those who oppose government collection or recording of traffic data in real-time seek to protect.
+But that right is not unqualified. In Whalen v. Roe,90 the United States Supreme Court classified privacy into two categories: decisional privacy and informational privacy. Decisional privacy involves the right to independence in making certain important decisions, while informational privacy refers to the interest in avoiding disclosure of personal matters. It is the latter right—the right to informational privacy—that those who oppose government collection or recording of traffic data in real-time seek to protect.
 
 Informational privacy has two aspects: the right not to have private information disclosed, and the right to live freely without surveillance and intrusion.91 In determining whether or not a matter is entitled to the right to privacy, this Court has laid down a two-fold test. The first is a subjective test, where one claiming the right must have an actual or legitimate expectation of privacy over a certain matter. The second is an objective test, where his or her expectation of privacy must be one society is prepared to accept as objectively reasonable.92
 
-Since the validity of the cybercrime law is being challenged, not in relation to its application to a particular person or group, petitioners� challenge to Section 12 applies to all information and communications technology (ICT) users, meaning the large segment of the population who use all sorts of electronic devices to communicate with one another. Consequently, the expectation of privacy is to be measured from the general public�s point of view. Without reasonable expectation of privacy, the right to it would have no basis in fact.
+Since the validity of the cybercrime law is being challenged, not in relation to its application to a particular person or group, petitioners’ challenge to Section 12 applies to all information and communications technology (ICT) users, meaning the large segment of the population who use all sorts of electronic devices to communicate with one another. Consequently, the expectation of privacy is to be measured from the general public’s point of view. Without reasonable expectation of privacy, the right to it would have no basis in fact.
 
 As the Solicitor General points out, an ordinary ICT user who courses his communication through a service provider, must of necessity disclose to the latter, a third person, the traffic data needed for connecting him to the recipient ICT user. For example, an ICT user who writes a text message intended for another ICT user must furnish his service provider with his cellphone number and the cellphone number of his recipient, accompanying the message sent. It is this information that creates the traffic data. Transmitting communications is akin to putting a letter in an envelope properly addressed, sealing it closed, and sending it through the postal service. Those who post letters have no expectations that no one will read the information appearing outside the envelope.
 
-Computer data�messages of all kinds�travel across the internet in packets and in a way that may be likened to parcels of letters or things that are sent through the posts. When data is sent from any one source, the content is broken up into packets and around each of these packets is a wrapper or header. This header contains the traffic data: information that tells computers where the packet originated, what kind of data is in the packet (SMS, voice call, video, internet chat messages, email, online browsing data, etc.), where the packet is going, and how the packet fits together with other packets.93 The difference is that traffic data sent through the internet at times across the ocean do not disclose the actual names and addresses (residential or office) of the sender and the recipient, only their coded internet protocol (IP) addresses. The packets travel from one computer system to another where their contents are pieced back together.
+Computer data—messages of all kinds—travel across the internet in packets and in a way that may be likened to parcels of letters or things that are sent through the posts. When data is sent from any one source, the content is broken up into packets and around each of these packets is a wrapper or header. This header contains the traffic data: information that tells computers where the packet originated, what kind of data is in the packet (SMS, voice call, video, internet chat messages, email, online browsing data, etc.), where the packet is going, and how the packet fits together with other packets.93 The difference is that traffic data sent through the internet at times across the ocean do not disclose the actual names and addresses (residential or office) of the sender and the recipient, only their coded internet protocol (IP) addresses. The packets travel from one computer system to another where their contents are pieced back together.
 
 Section 12 does not permit law enforcement authorities to look into the contents of the messages and uncover the identities of the sender and the recipient.
 
-For example, when one calls to speak to another through his cellphone, the service provider�s communication�s system will put his voice message into packets and send them to the other person�s cellphone where they are refitted together and heard. The latter�s spoken reply is sent to the caller in the same way. To be connected by the service provider, the sender reveals his cellphone number to the service provider when he puts his call through. He also reveals the cellphone number to the person he calls. The other ways of communicating electronically follow the same basic pattern.
+For example, when one calls to speak to another through his cellphone, the service provider’s communication’s system will put his voice message into packets and send them to the other person’s cellphone where they are refitted together and heard. The latter’s spoken reply is sent to the caller in the same way. To be connected by the service provider, the sender reveals his cellphone number to the service provider when he puts his call through. He also reveals the cellphone number to the person he calls. The other ways of communicating electronically follow the same basic pattern.
 
-In Smith v. Maryland,94 cited by the Solicitor General, the United States Supreme Court reasoned that telephone users in the �70s must realize that they necessarily convey phone numbers to the telephone company in order to complete a call. That Court ruled that even if there is an expectation that phone numbers one dials should remain private, such expectation is not one that society is prepared to recognize as reasonable.
+In Smith v. Maryland,94 cited by the Solicitor General, the United States Supreme Court reasoned that telephone users in the ‘70s must realize that they necessarily convey phone numbers to the telephone company in order to complete a call. That Court ruled that even if there is an expectation that phone numbers one dials should remain private, such expectation is not one that society is prepared to recognize as reasonable.
 
 In much the same way, ICT users must know that they cannot communicate or exchange data with one another over cyberspace except through some service providers to whom they must submit certain traffic data that are needed for a successful cyberspace communication. The conveyance of this data takes them out of the private sphere, making the expectation to privacy in regard to them an expectation that society is not prepared to recognize as reasonable.
 
-The Court, however, agrees with Justices Carpio and Brion that when seemingly random bits of traffic data are gathered in bulk, pooled together, and analyzed, they reveal patterns of activities which can then be used to create profiles of the persons under surveillance. With enough traffic data, analysts may be able to determine a person�s close associations, religious views, political affiliations, even sexual preferences. Such information is likely beyond what the public may expect to be disclosed, and clearly falls within matters protected by the right to privacy. But has the procedure that Section 12 of the law provides been drawn narrowly enough to protect individual rights?
+The Court, however, agrees with Justices Carpio and Brion that when seemingly random bits of traffic data are gathered in bulk, pooled together, and analyzed, they reveal patterns of activities which can then be used to create profiles of the persons under surveillance. With enough traffic data, analysts may be able to determine a person’s close associations, religious views, political affiliations, even sexual preferences. Such information is likely beyond what the public may expect to be disclosed, and clearly falls within matters protected by the right to privacy. But has the procedure that Section 12 of the law provides been drawn narrowly enough to protect individual rights?
 
 Section 12 empowers law enforcement authorities, "with due cause," to collect or record by technical or electronic means traffic data in real-time. Petitioners point out that the phrase "due cause" has no precedent in law or jurisprudence and that whether there is due cause or not is left to the discretion of the police. Replying to this, the Solicitor General asserts that Congress is not required to define the meaning of every word it uses in drafting the law.
 
@@ -650,7 +650,7 @@ The authority that Section 12 gives law enforcement agencies is too sweeping and
 
 Section 12, of course, limits the collection of traffic data to those "associated with specified communications." But this supposed limitation is no limitation at all since, evidently, it is the law enforcement agencies that would specify the target communications. The power is virtually limitless, enabling law enforcement authorities to engage in "fishing expedition," choosing whatever specified communication they want. This evidently threatens the right of individuals to privacy.
 
-The Solicitor General points out that Section 12 needs to authorize collection of traffic data "in real time" because it is not possible to get a court warrant that would authorize the search of what is akin to a "moving vehicle." But warrantless search is associated with a police officer�s determination of probable cause that a crime has been committed, that there is no opportunity for getting a warrant, and that unless the search is immediately carried out, the thing to be searched stands to be removed. These preconditions are not provided in Section 12.
+The Solicitor General points out that Section 12 needs to authorize collection of traffic data "in real time" because it is not possible to get a court warrant that would authorize the search of what is akin to a "moving vehicle." But warrantless search is associated with a police officer’s determination of probable cause that a crime has been committed, that there is no opportunity for getting a warrant, and that unless the search is immediately carried out, the thing to be searched stands to be removed. These preconditions are not provided in Section 12.
 
 The Solicitor General is honest enough to admit that Section 12 provides minimal protection to internet users and that the procedure envisioned by the law could be better served by providing for more robust safeguards. His bare assurance that law enforcement authorities will not abuse the provisions of Section 12 is of course not enough. The grant of the power to track cyberspace communications in real time and determine their sources and destinations must be narrowly drawn to preclude abuses.95
 
@@ -662,7 +662,7 @@ Section 13 of the Cybercrime Law
 
 Section 13 provides:
 
-Sec. 13. Preservation of Computer Data. � The integrity of traffic data and subscriber information relating to communication services provided by a service provider shall be preserved for a minimum period of six (6) months from the date of the transaction. Content data shall be similarly preserved for six (6) months from the date of receipt of the order from law enforcement authorities requiring its preservation.
+Sec. 13. Preservation of Computer Data. — The integrity of traffic data and subscriber information relating to communication services provided by a service provider shall be preserved for a minimum period of six (6) months from the date of the transaction. Content data shall be similarly preserved for six (6) months from the date of receipt of the order from law enforcement authorities requiring its preservation.
 
 Law enforcement authorities may order a one-time extension for another six (6) months: Provided, That once computer data preserved, transmitted or stored by a service provider is used as evidence in a case, the mere furnishing to such service provider of the transmittal document to the Office of the Prosecutor shall be deemed a notification to preserve the computer data until the termination of the case.
 
@@ -680,9 +680,9 @@ Section 14 of the Cybercrime Law
 
 Section 14 provides:
 
-Sec. 14. Disclosure of Computer Data. � Law enforcement authorities, upon securing a court warrant, shall issue an order requiring any person or service provider to disclose or submit subscriber�s information, traffic data or relevant data in his/its possession or control within seventy-two (72) hours from receipt of the order in relation to a valid complaint officially docketed and assigned for investigation and the disclosure is necessary and relevant for the purpose of investigation.
+Sec. 14. Disclosure of Computer Data. — Law enforcement authorities, upon securing a court warrant, shall issue an order requiring any person or service provider to disclose or submit subscriber’s information, traffic data or relevant data in his/its possession or control within seventy-two (72) hours from receipt of the order in relation to a valid complaint officially docketed and assigned for investigation and the disclosure is necessary and relevant for the purpose of investigation.
 
-The process envisioned in Section 14 is being likened to the issuance of a subpoena. Petitioners� objection is that the issuance of subpoenas is a judicial function. But it is well-settled that the power to issue subpoenas is not exclusively a judicial function. Executive agencies have the power to issue subpoena as an adjunct of their investigatory powers.98
+The process envisioned in Section 14 is being likened to the issuance of a subpoena. Petitioners’ objection is that the issuance of subpoenas is a judicial function. But it is well-settled that the power to issue subpoenas is not exclusively a judicial function. Executive agencies have the power to issue subpoena as an adjunct of their investigatory powers.98
 
 Besides, what Section 14 envisions is merely the enforcement of a duly issued court warrant, a function usually lodged in the hands of law enforcers to enable them to carry out their executive functions. The prescribed procedure for disclosure would not constitute an unlawful search or seizure nor would it violate the privacy of communications and correspondence. Disclosure can be made only after judicial intervention.
 
@@ -690,7 +690,7 @@ Section 15 of the Cybercrime Law
 
 Section 15 provides:
 
-Sec. 15. Search, Seizure and Examination of Computer Data. � Where a search and seizure warrant is properly issued, the law enforcement authorities shall likewise have the following powers and duties.
+Sec. 15. Search, Seizure and Examination of Computer Data. — Where a search and seizure warrant is properly issued, the law enforcement authorities shall likewise have the following powers and duties.
 
 Within the time period specified in the warrant, to conduct interception, as defined in this Act, and:
 
@@ -714,23 +714,23 @@ Section 17 of the Cybercrime Law
 
 Section 17 provides:
 
-Sec. 17. Destruction of Computer Data. � Upon expiration of the periods as provided in Sections 13 and 15, service providers and law enforcement authorities, as the case may be, shall immediately and completely destroy the computer data subject of a preservation and examination.
+Sec. 17. Destruction of Computer Data. — Upon expiration of the periods as provided in Sections 13 and 15, service providers and law enforcement authorities, as the case may be, shall immediately and completely destroy the computer data subject of a preservation and examination.
 
-Section 17 would have the computer data, previous subject of preservation or examination, destroyed or deleted upon the lapse of the prescribed period. The Solicitor General justifies this as necessary to clear up the service provider�s storage systems and prevent overload. It would also ensure that investigations are quickly concluded.
+Section 17 would have the computer data, previous subject of preservation or examination, destroyed or deleted upon the lapse of the prescribed period. The Solicitor General justifies this as necessary to clear up the service provider’s storage systems and prevent overload. It would also ensure that investigations are quickly concluded.
 
-Petitioners claim that such destruction of computer data subject of previous preservation or examination violates the user�s right against deprivation of property without due process of law. But, as already stated, it is unclear that the user has a demandable right to require the service provider to have that copy of the data saved indefinitely for him in its storage system. If he wanted them preserved, he should have saved them in his computer when he generated the data or received it. He could also request the service provider for a copy before it is deleted.
+Petitioners claim that such destruction of computer data subject of previous preservation or examination violates the user’s right against deprivation of property without due process of law. But, as already stated, it is unclear that the user has a demandable right to require the service provider to have that copy of the data saved indefinitely for him in its storage system. If he wanted them preserved, he should have saved them in his computer when he generated the data or received it. He could also request the service provider for a copy before it is deleted.
 
 Section 19 of the Cybercrime Law
 
 Section 19 empowers the Department of Justice to restrict or block access to computer data:
 
-Sec. 19. Restricting or Blocking Access to Computer Data.� When a computer data is prima facie found to be in violation of the provisions of this Act, the DOJ shall issue an order to restrict or block access to such computer data.
+Sec. 19. Restricting or Blocking Access to Computer Data.— When a computer data is prima facie found to be in violation of the provisions of this Act, the DOJ shall issue an order to restrict or block access to such computer data.
 
 Petitioners contest Section 19 in that it stifles freedom of expression and violates the right against unreasonable searches and seizures. The Solicitor General concedes that this provision may be unconstitutional. But since laws enjoy a presumption of constitutionality, the Court must satisfy itself that Section 19 indeed violates the freedom and right mentioned.
 
-Computer data99 may refer to entire programs or lines of code, including malware, as well as files that contain texts, images, audio, or video recordings. Without having to go into a lengthy discussion of property rights in the digital space, it is indisputable that computer data, produced or created by their writers or authors may constitute personal property. Consequently, they are protected from unreasonable searches and seizures, whether while stored in their personal computers or in the service provider�s systems.
+Computer data99 may refer to entire programs or lines of code, including malware, as well as files that contain texts, images, audio, or video recordings. Without having to go into a lengthy discussion of property rights in the digital space, it is indisputable that computer data, produced or created by their writers or authors may constitute personal property. Consequently, they are protected from unreasonable searches and seizures, whether while stored in their personal computers or in the service provider’s systems.
 
-Section 2, Article III of the 1987 Constitution provides that the right to be secure in one�s papers and effects against unreasonable searches and seizures of whatever nature and for any purpose shall be inviolable. Further, it states that no search warrant shall issue except upon probable cause to be determined personally by the judge. Here, the Government, in effect, seizes and places the computer data under its control and disposition without a warrant. The Department of Justice order cannot substitute for judicial search warrant.
+Section 2, Article III of the 1987 Constitution provides that the right to be secure in one’s papers and effects against unreasonable searches and seizures of whatever nature and for any purpose shall be inviolable. Further, it states that no search warrant shall issue except upon probable cause to be determined personally by the judge. Here, the Government, in effect, seizes and places the computer data under its control and disposition without a warrant. The Department of Justice order cannot substitute for judicial search warrant.
 
 The content of the computer data can also constitute speech. In such a case, Section 19 operates as a restriction on the freedom of expression over cyberspace. Certainly not all forms of speech are protected. Legislature may, within constitutional bounds, declare certain kinds of expression as illegal. But for an executive officer to seize content alleged to be unprotected without any judicial warrant, it is not enough for him to be of the opinion that such content violates some law, for to do so would make him judge, jury, and executioner all rolled into one.100
 
@@ -742,7 +742,7 @@ Section 20 of the Cybercrime Law
 
 Section 20 provides:
 
-Sec. 20. Noncompliance. � Failure to comply with the provisions of Chapter IV hereof specifically the orders from law enforcement authorities shall be punished as a violation of Presidential Decree No. 1829 with imprisonment of prision correctional in its maximum period or a fine of One hundred thousand pesos (Php100,000.00) or both, for each and every noncompliance with an order issued by law enforcement authorities.
+Sec. 20. Noncompliance. — Failure to comply with the provisions of Chapter IV hereof specifically the orders from law enforcement authorities shall be punished as a violation of Presidential Decree No. 1829 with imprisonment of prision correctional in its maximum period or a fine of One hundred thousand pesos (Php100,000.00) or both, for each and every noncompliance with an order issued by law enforcement authorities.
 
 Petitioners challenge Section 20, alleging that it is a bill of attainder. The argument is that the mere failure to comply constitutes a legislative finding of guilt, without regard to situations where non-compliance would be reasonable or valid.
 
@@ -760,19 +760,19 @@ Sections 24 and 26(a) of the Cybercrime Law
 
 Sections 24 and 26(a) provide:
 
-Sec. 24. Cybercrime Investigation and Coordinating Center.� There is hereby created, within thirty (30) days from the effectivity of this Act, an inter-agency body to be known as the Cybercrime Investigation and Coordinating Center (CICC), under the administrative supervision of the Office of the President, for policy coordination among concerned agencies and for the formulation and enforcement of the national cybersecurity plan.
+Sec. 24. Cybercrime Investigation and Coordinating Center.– There is hereby created, within thirty (30) days from the effectivity of this Act, an inter-agency body to be known as the Cybercrime Investigation and Coordinating Center (CICC), under the administrative supervision of the Office of the President, for policy coordination among concerned agencies and for the formulation and enforcement of the national cybersecurity plan.
 
-Sec. 26. Powers and Functions.� The CICC shall have the following powers and functions:
+Sec. 26. Powers and Functions.– The CICC shall have the following powers and functions:
 
 (a) To formulate a national cybersecurity plan and extend immediate assistance of real time commission of cybercrime offenses through a computer emergency response team (CERT); x x x.
 
 Petitioners mainly contend that Congress invalidly delegated its power when it gave the Cybercrime Investigation and Coordinating Center (CICC) the power to formulate a national cybersecurity plan without any sufficient standards or parameters for it to follow.
 
-In order to determine whether there is undue delegation of legislative power, the Court has adopted two tests: the completeness test and the sufficient standard test. Under the first test, the law must be complete in all its terms and conditions when it leaves the legislature such that when it reaches the delegate, the only thing he will have to do is to enforce it.1avvphi1 The second test mandates adequate guidelines or limitations in the law to determine the boundaries of the delegate�s authority and prevent the delegation from running riot.103
+In order to determine whether there is undue delegation of legislative power, the Court has adopted two tests: the completeness test and the sufficient standard test. Under the first test, the law must be complete in all its terms and conditions when it leaves the legislature such that when it reaches the delegate, the only thing he will have to do is to enforce it.1avvphi1 The second test mandates adequate guidelines or limitations in the law to determine the boundaries of the delegate’s authority and prevent the delegation from running riot.103
 
 Here, the cybercrime law is complete in itself when it directed the CICC to formulate and implement a national cybersecurity plan. Also, contrary to the position of the petitioners, the law gave sufficient standards for the CICC to follow when it provided a definition of cybersecurity.
 
-Cybersecurity refers to the collection of tools, policies, risk management approaches, actions, training, best practices, assurance and technologies that can be used to protect cyber environment and organization and user�s assets.104 This definition serves as the parameters within which CICC should work in formulating the cybersecurity plan.
+Cybersecurity refers to the collection of tools, policies, risk management approaches, actions, training, best practices, assurance and technologies that can be used to protect cyber environment and organization and user’s assets.104 This definition serves as the parameters within which CICC should work in formulating the cybersecurity plan.
 
 Further, the formulation of the cybersecurity plan is consistent with the policy of the law to "prevent and combat such [cyber] offenses by facilitating their detection, investigation, and prosecution at both the domestic and international levels, and by providing arrangements for fast and reliable international cooperation."105 This policy is clearly adopted in the interest of law and order, which has been considered as sufficient standard.106 Hence, Sections 24 and 26(a) are likewise valid.
 
@@ -816,7 +816,7 @@ m. Section 20 that penalizes obstruction of justice in relation to cybercrime in
 
 n. Section 24 that establishes a Cybercrime Investigation and Coordinating Center (CICC);
 
-o. Section 26(a) that defines the CICC�s Powers and Functions; and
+o. Section 26(a) that defines the CICC’s Powers and Functions; and
 
 p. Articles 353, 354, 361, and 362 of the Revised Penal Code that penalizes libel.
 
@@ -826,7 +826,7 @@ Further, the Court DECLARES:
 
 2. Section 5 that penalizes aiding or abetting and attempt in the commission of cybercrimes as VA L I D and CONSTITUTIONAL only in relation to Section 4(a)(1) on Illegal Access, Section 4(a)(2) on Illegal Interception, Section 4(a)(3) on Data Interference, Section 4(a)(4) on System
 
-Interference, Section 4(a)(5) on Misuse of Devices, Section 4(a)(6) on Cyber-squatting, Section 4(b)(1) on Computer-related Forgery, Section 4(b)(2) on Computer-related Fraud, Section 4(b)(3) on Computer-related Identity Theft, and Section 4(c)(1) on Cybersex; but VOID and UNCONSTITUTIONAL with respect to Sections 4(c)(2) on Child Pornography, 4(c)(3) on Unsolicited Commercial Communications, and 4(c)(4) on online Libel.1�wphi1
+Interference, Section 4(a)(5) on Misuse of Devices, Section 4(a)(6) on Cyber-squatting, Section 4(b)(1) on Computer-related Forgery, Section 4(b)(2) on Computer-related Fraud, Section 4(b)(3) on Computer-related Identity Theft, and Section 4(c)(1) on Cybersex; but VOID and UNCONSTITUTIONAL with respect to Sections 4(c)(2) on Child Pornography, 4(c)(3) on Unsolicited Commercial Communications, and 4(c)(4) on online Libel.1âwphi1
 
 Lastly, the Court RESOLVES to LEAVE THE DETERMINATION of the correct application of Section 7 that authorizes prosecution of the offender under both the Revised Penal Code and Republic Act 10175 to actual cases, WITH THE EXCEPTION of the crimes of:
 
@@ -872,7 +872,7 @@ Footnotes
 
 3 White Light Corporation v. City of Manila, G.R. No. 122846, January 20, 2009, 576 SCRA 416, 437.
 
-4 All 50 states of the United States have passed individual state laws criminalizing hacking or unauthorized access, http://www.ncsl.org/issues-research/telecom/computer-hacking-and-unauthorized-access-laws.aspx (last accessed May 16, 2013). The United States Congress has also passed the Computer Fraud and Abuse Act 18 U.S.C. � 1030 that penalizes, among others, hacking. The Budapest Convention on Cybercrime considers hacking as an offense against the confidentiality, integrity and availability of computer data and systems and 29 countries have already ratified or acceded, http://conventions.coe.int/Treaty/Commun/ChercheSig.asp?NT=185&CM=&DF=&CL=ENG (last accessed May 16, 2013).
+4 All 50 states of the United States have passed individual state laws criminalizing hacking or unauthorized access, http://www.ncsl.org/issues-research/telecom/computer-hacking-and-unauthorized-access-laws.aspx (last accessed May 16, 2013). The United States Congress has also passed the Computer Fraud and Abuse Act 18 U.S.C. § 1030 that penalizes, among others, hacking. The Budapest Convention on Cybercrime considers hacking as an offense against the confidentiality, integrity and availability of computer data and systems and 29 countries have already ratified or acceded, http://conventions.coe.int/Treaty/Commun/ChercheSig.asp?NT=185&CM=&DF=&CL=ENG (last accessed May 16, 2013).
 
 5 Ethical Hacking. Palmer, C. IBM Systems Journal, Vol. 40, No. 3, 2001, p. 770, http://pdf.textfiles.com/security/palmer.pdf (last accessed April 10, 2013).
 
@@ -964,7 +964,7 @@ Footnotes
 
 49 ICCPR, Article 19(2) and (3).
 
-50 Sandals Resorts Int�l. Ltd. v. Google, Inc., 86 A.D.3d 32 (N.Y. App. Div. 1st Dep�t 2011).
+50 Sandals Resorts Int’l. Ltd. v. Google, Inc., 86 A.D.3d 32 (N.Y. App. Div. 1st Dep’t 2011).
 
 51 Office of the Solicitor General, MEMORANDUM, pp. 69-70.
 
@@ -1000,7 +1000,7 @@ Footnotes
 
 67 Id.
 
-68 A contention found in Bruce Byars, Timothy O�Keefe, and Thomas Clement "Google, Inc.: Procurer, Possessor, Distributor, Aider and Abettor in Child Pornography,"
+68 A contention found in Bruce Byars, Timothy O’Keefe, and Thomas Clement "Google, Inc.: Procurer, Possessor, Distributor, Aider and Abettor in Child Pornography,"
 
 http://forumonpublicpolicy.com/archivespring08/byars.pdf (last accessed May 25, 2013).
 
@@ -1030,7 +1030,7 @@ http://forumonpublicpolicy.com/archivespring08/byars.pdf (last accessed May 25, 
 
 81 In the Matter of the Petition for Habeas Corpus of Capt. Alejano v. Gen. Cabuay, 505 Phil. 298, 322 (2005); Gamboa v. Chan, G.R. No. 193636, July 24, 2012, 677 SCRA 385.
 
-82 SEC. 2. Declaration of Policy. � The State recognizes the vital role of information and communications industries such as content production, telecommunications, broadcasting electronic commerce, and data processing, in the nation�s overall social and economic development. The State also recognizes the importance of providing an environment conducive to the development, acceleration, and rational application and exploitation of information and communications technology (ICT) to attain free, easy, and intelligible access to exchange and/or delivery of information; and the need to protect and safeguard the integrity of computer, computer and communications systems, networks, and databases, and the confidentiality, integrity, and availability of information and data stored therein, from all forms of misuse, abuse, and illegal access by making punishable under the law such conduct or conducts. In this light, the State shall adopt sufficient powers to effectively prevent and combat such offenses by facilitating their detection, investigation, and prosecution at both the domestic and international levels, and by providing arrangements for fast and reliable international cooperation.
+82 SEC. 2. Declaration of Policy. — The State recognizes the vital role of information and communications industries such as content production, telecommunications, broadcasting electronic commerce, and data processing, in the nation’s overall social and economic development. The State also recognizes the importance of providing an environment conducive to the development, acceleration, and rational application and exploitation of information and communications technology (ICT) to attain free, easy, and intelligible access to exchange and/or delivery of information; and the need to protect and safeguard the integrity of computer, computer and communications systems, networks, and databases, and the confidentiality, integrity, and availability of information and data stored therein, from all forms of misuse, abuse, and illegal access by making punishable under the law such conduct or conducts. In this light, the State shall adopt sufficient powers to effectively prevent and combat such offenses by facilitating their detection, investigation, and prosecution at both the domestic and international levels, and by providing arrangements for fast and reliable international cooperation.
 
 83 Convention on Cybercrime, Art. 20, opened for signature November 23, 2001, ETS 185.
 
