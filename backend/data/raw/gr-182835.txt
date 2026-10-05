@@ -1,0 +1,193 @@
+SECOND DIVISION
+
+G.R. No. 182835 April 20, 2010
+
+RUSTAN ANG y PASCUA, Petitioner,
+
+vs.
+
+THE HONORABLE COURT OF APPEALS and IRISH SAGUD, Respondents.
+
+D E C I S I O N
+
+ABAD, J.:
+
+This case concerns a claim of commission of the crime of violence against women when a former boyfriend sent to the girl the picture of a naked woman, not her, but with her face on it.
+
+The Indictment
+
+The public prosecutor charged petitioner-accused Rustan Ang (Rustan) before the Regional Trial Court (RTC) of Baler, Aurora, of violation of the Anti-Violence Against Women and Their Children Act or Republic Act (R.A.) 9262 in an information that reads:
+
+That on or about June 5, 2005, in the Municipality of Maria Aurora, Province of Aurora, Philippines and within the jurisdiction of this Honorable Court, the said accused willfully, unlawfully and feloniously, in a purposeful and reckless conduct, sent through the Short Messaging Service (SMS) using his mobile phone, a pornographic picture to one Irish Sagud, who was his former girlfriend, whereby the face of the latter was attached to a completely naked body of another woman making it to appear that it was said Irish Sagud who is depicted in the said obscene and pornographic picture thereby causing substantial emotional anguish, psychological distress and humiliation to the said Irish Sagud.1
+
+The Facts and the Case
+
+The evidence for the prosecution shows that complainant Irish Sagud (Irish) and accused Rustan were classmates at Wesleyan University in Aurora Province. Rustan courted Irish and they became "on-and-off" sweethearts towards the end of 2004. When Irish learned afterwards that Rustan had taken a live-in partner (now his wife), whom he had gotten pregnant, Irish broke up with him.
+
+Before Rustan got married, however, he got in touch with Irish and tried to convince her to elope with him, saying that he did not love the woman he was about to marry. Irish rejected the proposal and told Rustan to take on his responsibility to the other woman and their child. Irish changed her cellphone number but Rustan somehow managed to get hold of it and sent her text messages. Rustan used two cellphone numbers for sending his messages, namely, 0920-4769301 and 0921-8084768. Irish replied to his text messages but it was to ask him to leave her alone.
+
+In the early morning of June 5, 2005, Irish received through multimedia message service (MMS) a picture of a naked woman with spread legs and with Irish’s face superimposed on the figure (Exhibit A).2 The sender’s cellphone number, stated in the message, was 0921-8084768, one of the numbers that Rustan used. Irish surmised that he copied the picture of her face from a shot he took when they were in Baguio in 2003 (Exhibit B).3
+
+After she got the obscene picture, Irish got other text messages from Rustan. He boasted that it would be easy for him to create similarly scandalous pictures of her. And he threatened to spread the picture he sent through the internet. One of the messages he sent to Irish, written in text messaging shorthand, read: "Madali lang ikalat yun, my chatrum ang tarlac rayt pwede ring send sa lahat ng chatter."4
+
+Irish sought the help of the vice mayor of Maria Aurora who referred her to the police. Under police supervision, Irish contacted Rustan through the cellphone numbers he used in sending the picture and his text messages. Irish asked Rustan to meet her at the Lorentess Resort in Brgy. Ramada, Maria Aurora, and he did. He came in a motorcycle. After parking it, he walked towards Irish but the waiting police officers intercepted and arrested him. They searched him and seized his Sony Ericsson P900 cellphone and several SIM cards. While Rustan was being questioned at the police station, he shouted at Irish: "Malandi ka kasi!"
+
+Joseph Gonzales, an instructor at the Aurora State College of Technology, testified as an expert in information technology and computer graphics. He said that it was very much possible for one to lift the face of a woman from a picture and superimpose it on the body of another woman in another picture. Pictures can be manipulated and enhanced by computer to make it appear that the face and the body belonged to just one person.
+
+Gonzales testified that the picture in question (Exhibit A) had two distinct irregularities: the face was not proportionate to the body and the face had a lighter color. In his opinion, the picture was fake and the face on it had been copied from the picture of Irish in Exhibit B. Finally, Gonzales explained how this could be done, transferring a picture from a computer to a cellphone like the Sony Ericsson P900 seized from Rustan.
+
+For his part, Rustan admitted having courted Irish. He began visiting her in Tarlac in October 2003 and their relation lasted until December of that year. He claimed that after their relation ended, Irish wanted reconciliation. They met in December 2004 but, after he told her that his girlfriend at that time (later his wife) was already pregnant, Irish walked out on him.
+
+Sometime later, Rustan got a text message from Irish, asking him to meet her at Lorentess Resort as she needed his help in selling her cellphone. When he arrived at the place, two police officers approached him, seized his cellphone and the contents of his pockets, and brought him to the police station.
+
+Rustan further claims that he also went to Lorentess because Irish asked him to help her identify a prankster who was sending her malicious text messages. Rustan got the sender’s number and, pretending to be Irish, contacted the person. Rustan claims that he got back obscene messages from the prankster, which he forwarded to Irish from his cellphone. This explained, he said, why the obscene messages appeared to have originated from his cellphone number. Rustan claims that it was Irish herself who sent the obscene picture (Exhibit A) to him. He presented six pictures of a woman whom he identified as Irish (Exhibits 2 to 7).5
+
+Michelle Ang (Michelle), Rustan’s wife, testified that she was sure Irish sent the six pictures. Michelle claims that she received the pictures and hid the memory card (Exhibit 8) that contained them because she was jealous and angry. She did not want to see anything of Irish. But, while the woman in the pictures posed in sexy clothing, in none did she appear naked as in Exhibit A. Further, the face of the woman in Exhibits 2, 4, 5 and 6 could not be seen. Irish denied that she was the woman in those four pictures. As for Exhibits 3 and 7, the woman in the picture was fully dressed.
+
+After trial, the RTC found Irish’s testimony completely credible, given in an honest and spontaneous manner. The RTC observed that she wept while recounting her experience, prompting the court to comment: "Her tears were tangible expression of pain and anguish for the acts of violence she suffered in the hands of her former sweetheart. The crying of the victim during her testimony is evidence of the credibility of her charges with the verity borne out of human nature and experience."6 Thus, in its Decision dated August 1, 2001, the RTC found Rustan guilty of the violation of Section 5(h) of R.A. 9262.
+
+On Rustan’s appeal to the Court of Appeals (CA),7 the latter rendered a decision dated January 31, 2008,8 affirming the RTC decision. The CA denied Rustan’s motion for reconsideration in a resolution dated April 25, 2008. Thus, Rustan filed the present for review on certiorari.
+
+The Issues Presented
+
+The principal issue in this case is whether or not accused Rustan sent Irish by cellphone message the picture with her face pasted on the body of a nude woman, inflicting anguish, psychological distress, and humiliation on her in violation of Section 5(h) of R.A. 9262.
+
+The subordinate issues are:
+
+1. Whether or not a "dating relationship" existed between Rustan and Irish as this term is defined in R.A. 9262;
+
+2. Whether or not a single act of harassment, like the sending of the nude picture in this case, already constitutes a violation of Section 5(h) of R.A. 9262;
+
+3. Whether or not the evidence used to convict Rustan was obtained from him in violation of his constitutional rights; and
+
+4. Whether or not the RTC properly admitted in evidence the obscene picture presented in the case.
+
+The Court’s Rulings
+
+Section 3(a) of R.A. 9262 provides that violence against women includes an act or acts of a person against a woman with whom he has or had a sexual or dating relationship. Thus:
+
+SEC. 3. Definition of Terms. – As used in this Act,
+
+(a) "Violence against women and their children" refers to any act or a series of acts committed by any person against a woman who is his wife, former wife, or against a woman with whom the person has or had a sexual or dating relationship, or with whom he has a common child, or against her child whether legitimate or illegitimate, within or without the family abode, which result in or is likely to result in physical, sexual, psychological harm or suffering, or economic abuse including threats of such acts, battery, assault, coercion, harassment or arbitrary deprivation of liberty.
+
+x x x x
+
+Section 5 identifies the act or acts that constitute violence against women and these include any form of harassment that causes substantial emotional or psychological distress to a woman. Thus:
+
+SEC. 5. Acts of Violence Against Women and Their Children. – The crime of violence against women and their children is committed through any of the following acts:
+
+x x x x
+
+h. Engaging in purposeful, knowing, or reckless conduct, personally or through another, that alarms or causes substantial emotional or psychological distress to the woman or her child. This shall include, but not be limited to, the following acts:
+
+x x x x
+
+5. Engaging in any form of harassment or violence;
+
+The above provisions, taken together, indicate that the elements of the crime of violence against women through harassment are:
+
+1. The offender has or had a sexual or dating relationship with the offended woman;
+
+2. The offender, by himself or through another, commits an act or series of acts of harassment against the woman; and
+
+3. The harassment alarms or causes substantial emotional or psychological distress to her.
+
+One. The parties to this case agree that the prosecution needed to prove that accused Rustan had a "dating relationship" with Irish. Section 3(e) provides that a "dating relationship" includes a situation where the parties are romantically involved over time and on a continuing basis during the course of the relationship. Thus:
+
+(e) "Dating relationship" refers to a situation wherein the parties live as husband and wife without the benefit of marriage or are romantically involved over time and on a continuing basis during the course of the relationship. A casual acquaintance or ordinary socialization between two individuals in a business or social context is not a dating relationship. (Underscoring supplied.)
+
+Here, Rustan claims that, being "romantically involved," implies that the offender and the offended woman have or had sexual relations. According to him, "romance" implies a sexual act. He cites Webster’s Comprehensive Dictionary Encyclopedia Edition which provides a colloquial or informal meaning to the word "romance" used as a verb, i.e., "to make love; to make love to" as in "He romanced her."
+
+But it seems clear that the law did not use in its provisions the colloquial verb "romance" that implies a sexual act. It did not say that the offender must have "romanced" the offended woman. Rather, it used the noun "romance" to describe a couple’s relationship, i.e., "a love affair."9
+
+R.A. 9262 provides in Section 3 that "violence against women x x x refers to any act or a series of acts committed by any person against a woman x x x with whom the person has or had a sexual or dating relationship." Clearly, the law itself distinguishes a sexual relationship from a dating relationship. Indeed, Section 3(e) above defines "dating relationship" while Section 3(f) defines "sexual relations." The latter "refers to a single sexual act which may or may not result in the bearing of a common child." The dating relationship that the law contemplates can, therefore, exist even without a sexual intercourse taking place between those involved.
+
+Rustan also claims that since the relationship between Irish and him was of the "on-and-off" variety (away-bati), their romance cannot be regarded as having developed "over time and on a continuing basis." But the two of them were romantically involved, as Rustan himself admits, from October to December of 2003. That would be time enough for nurturing a relationship of mutual trust and love.
+
+An "away-bati" or a fight-and-kiss thing between two lovers is a common occurrence. Their taking place does not mean that the romantic relation between the two should be deemed broken up during periods of misunderstanding. Explaining what "away-bati" meant, Irish explained that at times, when she could not reply to Rustan’s messages, he would get angry at her. That was all. Indeed, she characterized their three-month romantic relation as continuous.10
+
+Two. Rustan argues that the one act of sending an offensive picture should not be considered a form of harassment. He claims that such would unduly ruin him personally and set a very dangerous precedent. But Section 3(a) of R.A. 9262 punishes "any act or series of acts" that constitutes violence against women. This means that a single act of harassment, which translates into violence, would be enough. The object of the law is to protect women and children. Punishing only violence that is repeatedly committed would license isolated ones.
+
+Rustan alleges that today’s women, like Irish, are so used to obscene communications that her getting one could not possibly have produced alarm in her or caused her substantial emotional or psychological distress. He claims having previously exchanged obscene pictures with Irish such that she was already desensitized by them.
+
+But, firstly, the RTC which saw and heard Rustan and his wife give their testimonies was not impressed with their claim that it was Irish who sent the obscene pictures of herself (Exhibits 2-7). It is doubtful if the woman in the picture was Irish since her face did not clearly show on them.
+
+Michelle, Rustan’s wife, claimed that she deleted several other pictures that Irish sent, except Exhibits 2 to 7. But her testimony did not make sense. She said that she did not know that Exhibits 2 to 7 had remained saved after she deleted the pictures. Later, however, she said that she did not have time to delete them.11 And, if she thought that she had deleted all the pictures from the memory card, then she had no reason at all to keep and hide such memory card. There would have been nothing to hide. Finally, if she knew that some pictures remained in the card, there was no reason for her to keep it for several years, given that as she said she was too jealous to want to see anything connected to Irish. Thus, the RTC was correct in not giving credence to her testimony.1avvphi1
+
+Secondly, the Court cannot measure the trauma that Irish experienced based on Rustan’s low regard for the alleged moral sensibilities of today’s youth. What is obscene and injurious to an offended woman can of course only be determined based on the circumstances of each case. Here, the naked woman on the picture, her legs spread open and bearing Irish’s head and face, was clearly an obscene picture and, to Irish a revolting and offensive one. Surely, any woman like Irish, who is not in the pornography trade, would be scandalized and pained if she sees herself in such a picture. What makes it further terrifying is that, as Irish testified, Rustan sent the picture with a threat to post it in the internet for all to see. That must have given her a nightmare.
+
+Three. Rustan argues that, since he was arrested and certain items were seized from him without any warrant, the evidence presented against him should be deemed inadmissible. But the fact is that the prosecution did not present in evidence either the cellphone or the SIM cards that the police officers seized from him at the time of his arrest. The prosecution did not need such items to prove its case. Exhibit C for the prosecution was but a photograph depicting the Sony Ericsson P900 cellphone that was used, which cellphone Rustan admitted owning during the pre-trial conference.
+
+Actually, though, the bulk of the evidence against him consisted in Irish’s testimony that she received the obscene picture and malicious text messages that the sender’s cellphone numbers belonged to Rustan with whom she had been previously in communication. Indeed, to prove that the cellphone numbers belonged to Rustan, Irish and the police used such numbers to summon him to come to Lorentess Resort and he did.12 Consequently, the prosecution did not have to present the confiscated cellphone and SIM cards to prove that Rustan sent those messages.
+
+Moreover, Rustan admitted having sent the malicious text messages to Irish.13 His defense was that he himself received those messages from an unidentified person who was harassing Irish and he merely forwarded the same to her, using his cellphone. But Rustan never presented the cellphone number of the unidentified person who sent the messages to him to authenticate the same. The RTC did not give credence to such version and neither will this Court. Besides, it was most unlikely for Irish to pin the things on Rustan if he had merely tried to help her identify the sender.
+
+Four. Rustan claims that the obscene picture sent to Irish through a text message constitutes an electronic document. Thus, it should be authenticated by means of an electronic signature, as provided under Section 1, Rule 5 of the Rules on Electronic Evidence (A.M. 01-7-01-SC).
+
+But, firstly, Rustan is raising this objection to the admissibility of the obscene picture, Exhibit A, for the first time before this Court. The objection is too late since he should have objected to the admission of the picture on such ground at the time it was offered in evidence. He should be deemed to have already waived such ground for objection.14
+
+Besides, the rules he cites do not apply to the present criminal action. The Rules on Electronic Evidence applies only to civil actions, quasi-judicial proceedings, and administrative proceedings.15
+
+In conclusion, this Court finds that the prosecution has proved each and every element of the crime charged beyond reasonable doubt.
+
+WHEREFORE, the Court DENIES the petition and AFFIRMS the decision of the Court of Appeals in CA-G.R. CR 30567 dated January 31, 2008 and its resolution dated April 25, 2008.
+
+SO ORDERED.
+
+ROBERTO A. ABAD Associate Justice
+
+WE CONCUR:
+
+ANTONIO T. CARPIO Associate Justice
+
+PRESBITERO J. VELASCO, JR. Associate Justice ARTURO D. BRION Associate Justice
+
+JOSE PORTUGAL PEREZ Associate Justice
+
+A T T E S T A T I O N
+
+I attest that the conclusions in the above Decision had been reached in consultation before the case was assigned to the writer of the opinion of the Court’s Division.
+
+ANTONIO T. CARPIO Associate Justice Chairperson, Second Division
+
+C E R T I F I C A T I O N
+
+Pursuant to Section 13, Article VIII of the Constitution and the Division Chairperson’s Attestation, I certify that the conclusions in the above Decision had been reached in consultation before the case was assigned to the writer of the opinion of the Court’s Division.
+
+REYNATO S. PUNO Chief Justice
+
+Footnotes
+
+* Designated as additional member in lieu of Associate Justice Mariano C. Del Castillo, per raffle dated September 14, 2009.
+
+1 Docketed as Criminal Case 3493.
+
+2 Records, p. 69.
+
+3 Id. at 70.
+
+4 Exhibit D and sub-markings, id. at 72-76.
+
+5 Id. at 156-159.
+
+6 Rollo, p. 38.
+
+7 Docketed as CA-G.R. CR 30567.
+
+8 Penned by then Associate Justice Mariano C. Del Castillo (now a member of this Court), and concurred in by Associate Justices Arcangelita Romilla-Lontok and Romeo F. Barza.
+
+9 Webster’s New World College Dictionary, Third Edition, p. 1164.
+
+10 TSN, April 11, 2006, pp. 22-24.
+
+11 TSN, July 19, 2006, pp. 10-12.
+
+12 TSN, April 11, 2006, p. 28.
+
+13 TSN, June 27, 2006, pp. 23-24.
+
+14 People v. Mendoza, G.R. No. 180501, December 24, 2008, 575 SCRA 616, 625-626.
+
+15 A.M. No. 01-7-01-SC, Rule 1, Section 2.
+
+The Lawphil Project - Arellano Law Foundation

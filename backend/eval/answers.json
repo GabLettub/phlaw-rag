@@ -1,0 +1,263 @@
+[
+  {
+    "id": "digest-knights",
+    "type": "digest",
+    "question": "Make a case digest of Knights of Rizal v. DMCI Homes.",
+    "passed": true,
+    "problems": [],
+    "intent": "digest",
+    "cited": [
+      "gr-213948"
+    ],
+    "seconds": 10.6,
+    "answer": "**Knights of Rizal v. DMCI Homes** (G.R. No. 213948)\n\n### Facts\n\nThe Knights of Rizal (KOR) filed an original petition before the Supreme Court seeking an injunction and later a writ of mandamus to stop the construction of the Torre de Manila, alleging that the building constitutes a nuisance per accidens and violates cultural heritage protections surrounding the Rizal Monument.\n\nDMCI-PDI, the developer, argued that the Supreme Court lacks original jurisdiction over injunction actions, that the proper forum is the Regional Trial Court or the appropriate administrative bodies, and that it acted in good faith in obtaining permits and complying with the City of Manila’s zoning ordinance.\n\nThe dispute also involved whether the City of Manila had a legal duty to apply Ordinance No. 8119, which governs developments within Rizal Park, to a project located outside the protected area, and whether the KOR had standing to challenge the project.\n\nThe Supreme Court ultimately lifted the temporary restraining order and dismissed the petition for mandamus, holding that the issues raised are factual matters for the trial courts and that the KOR lacks a legal right or interest to pursue the action.\n\n### Issues\n\nWhether or not the Supreme Court has original jurisdiction to entertain the KOR’s petition for injunction or mandamus against DMCI-PDI\n\nWhether or not the Knights of Rizal have standing or a legal right or interest to file the action\n\nWhether or not the Torre de Manila constitutes a nuisance per accidens that warrants injunctive relief\n\nWhether or not the City of Manila has a legal duty to apply Ordinance No. 8119 to a development outside the protected area of Rizal Park\n\nWhether or not the petition for mandamus should be granted and the temporary restraining order maintained\n\n### Ruling\n\nThe petition for mandamus is DISMISSED for lack of merit and the Temporary Restraining Order issued on 16 June 2015 is LIFTED effective immediately.\n\nThe Court held that the KOR lacks a legal right or interest and therefore no standing; the determination of whether the Torre de Manila is a nuisance per accidens involves factual findings that belong to the Regional Trial Court, not the Supreme Court; there is no clear legal duty on the City of Manila to apply Ordinance No. 8119 to projects outside Rizal Park; DMCI-PDI acted in good faith and obtained the necessary permits, and administrative findings are supported by substantial evidence, so the Court will not disturb them.\n\n### Doctrine\n\nOriginal jurisdiction over injunctions lies with the Regional Trial Court; the Supreme Court may entertain only cases within its jurisdiction or on appeal.\n\nStanding requires a personal and substantial interest; a party without a legal right or interest cannot maintain an action.\n\nThe existence of a nuisance per accidens is a question of fact to be decided by the trial courts, not the Supreme Court.\n\nCourts will not impose a legal duty on a municipal agency to apply a zoning ordinance to areas outside its protected zone absent clear statutory mandate.\n\nMandamus may be issued only when a clear legal duty exists; absent such duty, the remedy is unavailable.\n\nAdministrative agency findings supported by substantial evidence are presumed correct and are not disturbed absent grave abuse of discretion."
+  },
+  {
+    "id": "digest-mmda",
+    "type": "digest",
+    "question": "Provide a case digest for G.R. No. 171947.",
+    "passed": true,
+    "problems": [],
+    "intent": "digest",
+    "cited": [
+      "gr-171947"
+    ],
+    "seconds": 8.5,
+    "answer": "**MMDA v. Concerned Residents of Manila Bay** (G.R. Nos. 171947-48)\n\n### Facts\n\nOn January 29, 1999, the Concerned Residents of Manila Bay filed a complaint in the Regional Trial Court of Imus, Cavite, alleging that the water quality of Manila Bay had fallen below the standards set by PD 1152 and seeking a court order for the cleanup, rehabilitation, and protection of the bay.\n\nThe complaint cited violations of constitutional rights to life, health, and a balanced ecology, as well as numerous environmental statutes including PD 1152, PD 984, PD 1067, PD 856, PD 825, PD 979, EO 192, RA 6969, and relevant civil code provisions.\n\nDENR testing showed fecal coliform levels ranging from 50,000 to 80,000 MPN/ml, far exceeding the safe bathing level of 200 MPN/100 ml prescribed by DENR Administrative Order No. 34-90. The agencies named in the complaint filed a petition for review under Rule 45, which was consolidated with other appeals before the Court of Appeals.\n\nThe Court of Appeals affirmed the RTC decision, holding that the trial court’s order did not require agencies to perform tasks beyond their basic functions. The petitioners then sought review before the Supreme Court, raising the issues of the scope of Sections 17 and 20 of PD 1152 and the propriety of mandamus to compel cleanup.\n\n### Issues\n\nWhether or not Sections 17 and 20 of PD 1152, which address upgrading of water quality and clean‑up operations, are limited to specific pollution incidents or extend to a general cleanup of Manila Bay.\n\nWhether or not the petitioners can be compelled by a writ of mandamus to clean up and rehabilitate Manila Bay.\n\n### Ruling\n\nThe petition is DENIED; the Court affirms the CA and RTC decisions with modifications, ordering the respondent agencies to clean, rehabilitate, and preserve Manila Bay to Class B (SB) water quality suitable for swimming and other contact recreation.\n\nThe Court held that the statutory commands in PD 1152 are clear and ministerial, not discretionary, and that the agencies have a non‑discretionary duty to perform basic environmental functions; the constitutional right to a balanced and healthful ecology and the sweeping provisions of RA 9003 further support the order, and mandamus is appropriate to compel performance of such ministerial duties.\n\n### Doctrine\n\nSections 17 and 20 of PD 1152 impose a ministerial duty on government agencies to remove pollutants and upgrade water quality, covering general cleanup, not merely specific incidents.\n\nGovernment agencies cannot evade their environmental mandates; they must perform basic functions in cleaning and rehabilitating polluted water bodies.\n\nThe right to a balanced and healthful ecology is an inherent constitutional right with intergenerational implications, enforceable through judicial orders.\n\nA writ of mandamus may be issued to compel performance of a non‑discretionary, ministerial duty arising from environmental statutes such as PD 1152 and RA 9003."
+  },
+  {
+    "id": "digest-pearl-dean",
+    "type": "digest",
+    "question": "Digest Pearl & Dean v. Shoemart.",
+    "passed": true,
+    "problems": [],
+    "intent": "digest",
+    "cited": [
+      "gr-148222"
+    ],
+    "seconds": 8.1,
+    "answer": "**Pearl & Dean v. Shoemart** (G.R. No. 148222)\n\n### Facts\n\nPearl & Dean (Phil.) Inc. (P& D) manufactures advertising light boxes called \"Poster Ads\" and obtained a copyright registration for the engineering drawings of the units on January 20, 1981, and a trademark registration for the mark \"Poster Ads\" on September 12, 1988.\n\nShoemart Inc. (SMI) and North Edsa Marketing Inc. (NEMI) had light boxes manufactured by third parties for their own use, which P& D alleged infringed its copyright and trademark.\n\nThe Regional Trial Court initially found SMI and NEMI liable for infringement and unfair competition, but the Court of Appeals reversed that decision, holding that the copyright covered only the drawings and that no trademark infringement existed.\n\nP& D filed a petition for review on certiorari, arguing that the appellate court erred in not awarding damages, attorney's fees, and costs, and in its interpretation of copyright, trademark, and unfair competition law.\n\n### Issues\n\nWhether or not the engineering or technical drawings of an advertising display unit that are granted copyright protection also protect the light box depicted in such drawings.\n\nWhether or not a trademark that is merely an abbreviation of a descriptive term can be legally enforced against others.\n\nWhether or not the plaintiff may recover actual, moral, exemplary damages, attorney's fees, and costs of suit despite the appellate court's findings.\n\n### Ruling\n\nThe petition is DENIED and the Court of Appeals decision is AFFIRMED in toto.\n\nThe Court held that the copyright registration covered only the drawings (a \"Class O\" work under Section 2(O) of PD 49) and did not extend to the physical light boxes, thus no copyright infringement occurred.\n\nBecause the trademark \"Poster Ads\" was generic and not registered for the specific goods, no trademark infringement existed, and the doctrine of secondary meaning was not applicable.\n\nThe unfair competition claim could not be revived since the plaintiff did not appeal the RTC's ruling on that issue.\n\n### Doctrine\n\nCopyright protection under Section 2(O) of PD 49 is limited to the enumerated works such as prints and pictorial illustrations and does not automatically extend to the physical articles depicted.\n\nA trademark must be registered for the specific goods to constitute infringement; registration is an essential element of a trademark claim.\n\nGeneric terms that describe the goods cannot acquire trademark protection unless they have acquired secondary meaning through exclusive and continuous use, which must be proven.\n\nAn unfair competition claim that was not appealed in the lower court cannot be raised anew on appeal."
+  },
+  {
+    "id": "digest-ang",
+    "type": "digest",
+    "question": "Make a case digest of G.R. No. 182835.",
+    "passed": true,
+    "problems": [],
+    "intent": "digest",
+    "cited": [
+      "gr-182835"
+    ],
+    "seconds": 20.3,
+    "answer": "**Ang v. Court of Appeals** (G.R. No. 182835)\n\n### Facts\n\nRustan Ang and Irish Sagud were classmates and had an on‑and‑off romantic relationship in 2004. After Irish learned Rustan had a live‑in partner who later became his wife and bore his child, she broke off the relationship and changed her cellphone number, but Rustan later obtained the new number and continued to send her messages.\n\nOn the early morning of 5 June 2005 Rustan sent Irish an MMS containing a pornographic picture of a naked woman whose face was superimposed with Irish’s face. The message displayed the sender’s number as one of Rustan’s two cellphones. Irish identified the picture as a manipulation of a photo taken of her in 2003 and reported the incident to authorities.\n\nThe Regional Trial Court found Irish’s testimony credible, noting her tears and emotional anguish, and convicted Rustan of violating Section 5(h) of R.A. 9262. The Court of Appeals affirmed the conviction, and Rustan’s petition for review before the Supreme Court was denied.\n\nThe issues raised concerned the existence of a dating relationship, whether a single act of sending the obscene picture suffices for a violation of Section 5(h), the admissibility of the picture and other evidence, and the applicability of electronic‑evidence rules.\n\n### Issues\n\nWhether or not accused Rustan sent Irish by cellphone message the picture with her face pasted on the body of a nude woman, inflicting anguish, psychological distress, and humiliation in violation of Section 5(h) of R.A. 9262\n\nWhether or not a \"dating relationship\" existed between Rustan and Irish as defined in R.A. 9262\n\nWhether or not a single act of harassment, like the sending of the nude picture in this case, already constitutes a violation of Section 5(h) of R.A. 9262\n\nWhether or not the evidence used to convict Rustan was obtained from him in violation of his constitutional rights\n\nWhether or not the RTC properly admitted in evidence the obscene picture presented in the case\n\n### Ruling\n\nThe Supreme Court DENIED the petition and AFFIRMED the decision of the Court of Appeals.\n\nIt held that the prosecution proved each element of the crime beyond reasonable doubt, including that a dating relationship existed under Sec 3(a) of R.A. 9262, that a single act of sending an obscene picture constitutes harassment under Sec 5, and that the evidence was lawfully admitted despite the lack of a warrant or electronic‑signature authentication.\n\nThe Court ruled that the Rules on Electronic Evidence do not apply to criminal cases, and that Rustan’s failure to timely object to the picture’s admission amounted to a waiver, rendering the objection untimely and ineffective.\n\n### Doctrine\n\nSection 3(a) of R.A. 9262 defines \"violence against women\" to include acts against a woman with whom the offender has or had a sexual or dating relationship.\n\nSection 5 of R.A. 9262 includes any form of harassment that causes substantial emotional or psychological distress as a form of violence against women.\n\nA single act of harassment, such as sending an obscene picture, can satisfy the element of violence under Sec 5(h).\n\nThe Rules on Electronic Evidence apply only to civil, quasi‑judicial, and administrative proceedings; they do not govern the admissibility of electronic documents in criminal cases.\n\nFailure to raise an objection to the admission of evidence at the time it is offered results in a waiver of that objection."
+  },
+  {
+    "id": "digest-disini",
+    "type": "digest",
+    "question": "Case digest of Disini v. Secretary of Justice.",
+    "passed": true,
+    "problems": [],
+    "intent": "digest",
+    "cited": [
+      "gr-203335"
+    ],
+    "seconds": 35.1,
+    "answer": "**Disini v. Secretary of Justice** (G.R. No. 203335)\n\n### Facts\n\nPetitioners, a group of individuals and organizations, filed a petition before the Supreme Court challenging the constitutionality of numerous provisions of Republic Act No. 10175, the Cybercrime Prevention Act, arguing that the law infringes on freedom of speech, privacy, due process, and the prohibition against double jeopardy.\n\nThe petition specifically targeted provisions ranging from Section 4(a)(1) on illegal access to Section 26(a) defining the powers of the Cybercrime Investigation and Coordinating Center, as well as the criminal libel provisions of the Revised Penal Code.\n\nThe Court examined the challenged sections, the State’s interest in regulating cyber activities, and the potential impact on constitutional rights, issuing a detailed dispositive portion that affirmed, struck down, or partially upheld the provisions.\n\nThe decision also addressed ancillary issues such as the admissibility of aiding and abetting provisions, the scope of online libel liability, and the application of double jeopardy principles to cyber‑related offenses.\n\n### Issues\n\nWhether or not Section 4(a)(1) on Illegal Access is constitutional\n\nWhether or not Section 4(a)(3) on Data Interference is constitutional\n\nWhether or not Section 4(b)(3) on Identity Theft is constitutional\n\nWhether or not Section 4(c)(1) on Cybersex is constitutional\n\nWhether or not Section 4(c)(2) on Child Pornography is constitutional\n\nWhether or not Section 4(c)(4) on Online Libel is constitutional\n\nWhether or not Section 5 on Aiding or Abetting and Attempt in the Commission of Cybercrimes is constitutional\n\nWhether or not Section 12 on Real‑Time Collection of Traffic Data is constitutional\n\nWhether or not Section 19 on Restricting or Blocking Access to Computer Data is constitutional\n\nWhether or not Section 26(a) defining the CICC’s powers and functions is constitutional\n\n### Ruling\n\nThe Court declared Sections 4(c)(1) (cybersex), 4(c)(2) (child pornography), 6 (higher penalty), 8 (penalties), 13 (preservation of traffic data), 14 (disclosure of computer data), 15 (search and seizure of computer data), 17 (destruction of preserved data), 20 (obstruction of justice), 24 (CICC), and 26(a) (CICC powers) valid and constitutional.\n\nIt held Section 4(c)(4) on online libel constitutional as to the original author of the post but void and unconstitutional as to persons who merely receive or react to the post.\n\nSection 5 on aiding and abetting was upheld as constitutional only with respect to certain cybercrimes (illegal access, illegal interception, data interference, system interference, misuse of devices, cyber‑squatting, computer‑related forgery, fraud, identity theft, and cybersex) and void for child pornography, unsolicited commercial communications, and online libel.\n\nThe Court found that Section 12 has a proper governmental purpose, being narrowly drawn to serve a compelling State interest in monitoring cyber traffic to combat crime.\n\nIt ruled that Section 19, while potentially restrictive of expression, does not per se violate the Constitution because the law enjoys a presumption of validity and must be balanced against the State’s interest.\n\nFinally, the Court resolved that charging an offender for online libel under both Section 4(c)(4) of RA 10175 and Article 353 of the Revised Penal Code violates the prohibition against double jeopardy, as does charging child pornography under both RA 10175 and the Anti‑Child Pornography Act; these overlapping prosecutions are void and unconstitutional.\n\n### Doctrine\n\nA law that regulates speech must have a compelling State interest and be narrowly tailored to withstand constitutional scrutiny.\n\nThe presumption of constitutionality applies to statutes, but the Court must assess whether a provision is overbroad or vague in relation to protected freedoms.\n\nOnline libel is punishable for the original author but not for mere recipients or reactors, preserving the distinction between authorship and passive dissemination.\n\nAiding and abetting provisions are valid only for cybercrimes expressly listed; they are void when applied to offenses such as child pornography, unsolicited commercial communications, and online libel.\n\nDouble jeopardy bars the imposition of concurrent penalties under both the Cybercrime Prevention Act and other statutes for the same online offense (e.g., online libel, child pornography).\n\nThe State may collect real‑time traffic data and preserve computer data when a rational relation to a compelling governmental purpose exists, balancing privacy rights against the need to combat cybercrime."
+  },
+  {
+    "id": "digest-oposa",
+    "type": "digest",
+    "question": "Make a case digest of Oposa v. Factoran.",
+    "passed": true,
+    "problems": [],
+    "intent": "digest",
+    "cited": [
+      "gr-101083"
+    ],
+    "seconds": 27.6,
+    "answer": "**Oposa v. Factoran** (G.R. No. 101083)\n\n### Facts\n\nPetitioners filed a class action (Civil Case No. 90-777) alleging that the Secretary of DENR gravely abused discretion by granting Timber License Agreements covering areas beyond what is available for logging, thereby impairing the country's rainforests and the right to a balanced and healthful ecology.\n\nThe petition relied on constitutional provisions (Section 16, Article II of the 1987 Constitution), Articles 19-21 of the Civil Code, Section 4 of E.O. No. 192, and P.D. No. 1151, asserting a cause of action to prevent environmental damage and to enforce inter‑generational responsibility.\n\nThe Supreme Court first ruled the case a valid class suit under Section 12, Rule 3 of the Revised Rules of Court, noting the common interest of all citizens and the impracticability of joining all affected parties.\n\nAfter evaluating the complaint, the Court found that the petition sufficiently alleged a cause of action, set aside the trial court’s order dismissing the case for grave abuse of discretion, and directed petitioners to amend the complaint to implead the timber license grantees.\n\n### Issues\n\nWhether or not the petitioners have standing to sue for the protection of the right to a balanced and healthful ecology.\n\nWhether or not the complaint sufficiently states a cause of action under Sec. 1, Rule 2 of the Revised Rules of Court.\n\nWhether or not the trial court's dismissal of the case constitutes grave abuse of discretion amounting to lack of jurisdiction.\n\nWhether or not the controversy presents a political question that bars judicial review.\n\n### Ruling\n\nThe petition is GRANTED; the trial court’s order dismissing Civil Case No. 90-777 is SET ASIDE.\n\nThe Court held that the complaint adequately alleged a cause of action to protect environmental rights, that the petitioners have locus standi, and that the issue is not a political question.\n\nThe dismissal was deemed grave abuse of discretion because the trial court failed to recognize the sufficiency of the factual allegations and the constitutional basis of the claim.\n\nPetitioners may amend the complaint to implead the holders or grantees of the questioned timber license agreements.\n\n### Doctrine\n\nThe Constitution guarantees the right of the people to a balanced and healthful ecology, which may be enforced by citizen suits.\n\nCitizens have standing to sue for environmental protection when the subject matter is of common and general interest to the public.\n\nA complaint must allege a specific legal right or wrong with sufficient definiteness to state a cause of action (Sec. 1, Rule 2, RRC).\n\nGrave abuse of discretion occurs when a lower court acts without jurisdiction or disregards the sufficiency of the complaint.\n\nClass actions are proper when the parties are numerous, the interest is common, and the requisites of Section 12, Rule 3 of the Revised Rules of Court are met.\n\nThe political question doctrine does not automatically preclude judicial review of the enforcement of environmental policies already embodied in law."
+  },
+  {
+    "id": "fact-knights-why-dismissed",
+    "type": "fact",
+    "question": "Why did the Supreme Court refuse to stop the construction of Torre de Manila?",
+    "passed": true,
+    "problems": [],
+    "intent": "follow_up",
+    "cited": [
+      "gr-213948"
+    ],
+    "seconds": 18.4,
+    "answer": "The Supreme Court dismissed the petition for mandamus and refused to halt the Torre de Manila because **no law prohibited the building’s construction and the project was not shown to be “contrary to morals, customs, or public order” or to pose any danger to the community**.  The Court noted that the City of Manila had already found DMCI‑PDI in compliance with all applicable statutes and local ordinances, that the building permit and zoning approvals were valid exercises of discretionary authority, and that there was no statutory basis to enjoin the project.  Accordingly, the petition was deemed meritless and the temporary restraining order was lifted【Knights of Rizal v. DMCI Homes, G.R. No. 213948】."
+  },
+  {
+    "id": "fact-mmda-water-standard",
+    "type": "fact",
+    "question": "To what water quality classification did the Court order Manila Bay to be restored?",
+    "passed": false,
+    "problems": [
+      "missing one of ['swimming', 'contact recreation', 'skin-diving']"
+    ],
+    "intent": "follow_up",
+    "cited": [
+      "gr-171947"
+    ],
+    "seconds": 13.7,
+    "answer": "The Court ordered that Manila Bay be restored to **SB level – Class B sea waters** as defined in the Water Classification Tables under DENR Administrative Order No. 34 (1990).【MMDA v. Concerned Residents of Manila Bay, G.R. Nos. 171947‑48】"
+  },
+  {
+    "id": "fact-pearl-dean-copyright-scope",
+    "type": "fact",
+    "question": "Did Pearl & Dean's copyright registration protect the light boxes themselves?",
+    "passed": true,
+    "problems": [],
+    "intent": "follow_up",
+    "cited": [
+      "gr-148222"
+    ],
+    "seconds": 8.0,
+    "answer": "No.  The Supreme Court held that Pearl & Dean’s copyright registration covered only the engineering/technical drawings of the advertising display unit, not the light‑box itself, because the light box did not fall within the statutory categories of protectable works.  (Pearl & Dean v. Shoemart, G.R. No. 148222.)"
+  },
+  {
+    "id": "fact-ang-ree-criminal",
+    "type": "fact",
+    "question": "Do the Rules on Electronic Evidence apply to criminal cases?",
+    "passed": true,
+    "problems": [],
+    "intent": "follow_up",
+    "cited": [
+      "gr-182835"
+    ],
+    "seconds": 13.4,
+    "answer": "The Supreme Court held that the Rules on Electronic Evidence do **not** apply to the criminal action in this case.  The Court explained that the rules “apply only to civil actions, quasi‑judicial proceedings, and administrative proceedings” and therefore were inapplicable to the present criminal case. (Ang v. Court of Appeals, G.R. No. 182835, 20 Apr 2010)."
+  },
+  {
+    "id": "fact-disini-struck-down",
+    "type": "fact",
+    "question": "Which provisions of the Cybercrime Prevention Act were declared unconstitutional?",
+    "passed": false,
+    "problems": [
+      "missing one of ['section 12', 'sec. 12']",
+      "missing one of ['section 19', 'sec. 19']"
+    ],
+    "intent": "follow_up",
+    "cited": [
+      "gr-203335"
+    ],
+    "seconds": 27.1,
+    "answer": "The Court held that several provisions of Republic Act No. 10175 (the Cybercrime Prevention Act) are unconstitutional:\n\n* **Section 4(c)(3)** – the penalty for “unsolicited commercial communications” (spam).  \n* **Section 12** – the authority to collect or record Internet traffic data in real‑time.  \n* **Section 19** – the power of the Department of Justice to restrict or block access to suspected computer data.  \n\nIn addition, the Court limited the constitutionality of other provisions:\n\n* **Section 4(c)(4)** (online libel) is **valid only as to the original author** of the offending post; it is **void as to persons who merely receive or react to the post**.  \n* **Section 5** (aiding or abetting and attempt) is **valid only when applied to the offenses listed in Sections 4(a)(1)‑(6), 4(b)(1)‑(3) and 4(c)(1)**; it is **void when applied to Sections 4(c)(2) (child pornography), 4(c)(3) (unsolicited commercial communications) and 4(c)(4) (online libel).  \n\nThese holdings are from **Disini v. Secretary of Justice, G.R. No. 203335**."
+  },
+  {
+    "id": "fact-oposa-doctrine",
+    "type": "fact",
+    "question": "What doctrine did Oposa v. Factoran recognize?",
+    "passed": false,
+    "problems": [
+      "missing one of ['intergenerational']",
+      "missing one of ['healthful ecology', 'balanced and healthful']"
+    ],
+    "intent": "follow_up",
+    "cited": [
+      "gr-101083"
+    ],
+    "seconds": 16.0,
+    "answer": "The Court acknowledged the **political‑question doctrine**, holding that while it remains a relevant principle, it is no longer an “insurmountable obstacle” that bars judicial review of executive or legislative actions. (Oposa v. Factoran, G.R. No. 101083)"
+  },
+  {
+    "id": "followup-oposa-petitioners",
+    "type": "follow_up",
+    "question": "Who were the petitioners, and how could they sue on behalf of others?",
+    "passed": true,
+    "problems": [],
+    "intent": "follow_up",
+    "cited": [
+      "gr-101083"
+    ],
+    "seconds": 11.5,
+    "answer": "**Petitioners**\n\n- The principal plaintiffs were **minors** (children) who were **duly represented by their parents**.  The complaint also named **the Philippine Ecological Network, Inc. (PENI)**, a non‑stock, non‑profit corporation organized for environmental protection, as an additional plaintiff. (The case notes that “the principal plaintiffs… are all minors duly represented and joined by their respective parents” and that “the Philippine Ecological Network, Inc. … was impleaded as an additional plaintiff.”) 【Oposa v. Factoran, G.R. No. 101083】\n\n**How they could sue on behalf of others**\n\n- The minors were allowed to file a **class suit** because the subject matter—protection of the country’s forests and the right to a balanced and healthful ecology—is of “common and general interest … to all citizens of the Philippines.” Under **Section 12, Rule 3 of the Revised Rules of Court**, the requisites for a valid class action were found to be present. 【Oposa v. Factoran, G.R. No. 101083】\n\n- The Court recognized that the minors could sue **not only for themselves but also for their generation and for “generations yet unborn,”** based on the doctrine of **inter‑generational responsibility** tied to the constitutional right to a balanced and healthful ecology. Thus, their standing derived from the concept that each generation has a duty to preserve the environment for future generations, allowing them to represent present and future citizens in the action. 【Oposa v. Factoran, G.R. No. 101083】"
+  },
+  {
+    "id": "followup-knights-ponente",
+    "type": "follow_up",
+    "question": "Who wrote the decision?",
+    "passed": true,
+    "problems": [],
+    "intent": "follow_up",
+    "cited": [
+      "gr-213948"
+    ],
+    "seconds": 21.8,
+    "answer": "The decision was authored by **Associate Justice Antonio T. Carpio** in *Knights of Rizal v. DMCI Homes*, G.R. No. 213948."
+  },
+  {
+    "id": "search-environment",
+    "type": "search",
+    "question": "Show me environmental law cases.",
+    "passed": true,
+    "problems": [],
+    "intent": "search",
+    "cited": [
+      "gr-101083",
+      "gr-171947"
+    ],
+    "seconds": 13.2,
+    "answer": "- **Oposa v. Factoran** (G.R. No. 101083): The excerpts discuss the right to a balanced and healthful ecology, forest conservation, and intergenerational responsibility, which are core environmental law issues.\n- **MMDA v. Concerned Residents of Manila Bay** (G.R. Nos. 171947-48): The excerpts cite multiple environmental statutes (e.g., Pollution Control Law, Water Code) and address cleaning Manila Bay, directly involving environmental law."
+  },
+  {
+    "id": "search-cyber",
+    "type": "search",
+    "question": "Are there cases about online libel or cybercrime?",
+    "passed": true,
+    "problems": [],
+    "intent": "search",
+    "cited": [
+      "gr-203335"
+    ],
+    "seconds": 12.1,
+    "answer": "- **Disini v. Secretary of Justice** (G.R. No. 203335): The excerpts discuss cyberlibel, online defamation, and the application of the Cybercrime Law, directly addressing online libel and cybercrime."
+  },
+  {
+    "id": "general-mandamus",
+    "type": "general",
+    "question": "What is a writ of mandamus?",
+    "passed": true,
+    "problems": [],
+    "intent": "general",
+    "cited": [],
+    "seconds": 1.6,
+    "answer": "General knowledge (not from the indexed decisions): A writ of mandamus is a court order directing a government official, agency, or lower court to perform a duty that is required by law and that they have unlawfully failed or refused to do. It is used only when the duty is clear, mandatory, and there is no other adequate remedy. The writ is available in Philippine practice and is commonly invoked to compel public officials to act on statutory or constitutional obligations. This explanation is for informational purposes only and does not constitute legal advice."
+  },
+  {
+    "id": "oos-eat-bulaga",
+    "type": "out_of_scope",
+    "question": "What did the Supreme Court rule in the Eat Bulaga trademark case, G.R. No. 267398?",
+    "passed": true,
+    "problems": [],
+    "intent": "out_of_scope",
+    "cited": [],
+    "seconds": 10.8,
+    "answer": "That is not in the six Supreme Court decisions I've indexed, so I can't answer it from them. I currently cover:\n\n- Knights of Rizal v. DMCI Homes (G.R. No. 213948, 2017): Cultural heritage\n- MMDA v. Concerned Residents of Manila Bay (G.R. Nos. 171947-48, 2008): Environment / continuing mandamus\n- Pearl & Dean v. Shoemart (G.R. No. 148222, 2003): Intellectual property\n- Ang v. Court of Appeals (G.R. No. 182835, 2010): Electronic evidence / RA 9262\n- Disini v. Secretary of Justice (G.R. No. 203335, 2014): Cybercrime / free speech\n- Oposa v. Factoran (G.R. No. 101083, 1993): Environment / intergenerational responsibility"
+  },
+  {
+    "id": "oos-admin-circular",
+    "type": "out_of_scope",
+    "question": "Summarize SC Administrative Circular No. 24-2024 on messaging app screenshots.",
+    "passed": true,
+    "problems": [],
+    "intent": "out_of_scope",
+    "cited": [],
+    "seconds": 23.4,
+    "answer": "That is not in the six Supreme Court decisions I've indexed, so I can't answer it from them. I currently cover:\n\n- Knights of Rizal v. DMCI Homes (G.R. No. 213948, 2017): Cultural heritage\n- MMDA v. Concerned Residents of Manila Bay (G.R. Nos. 171947-48, 2008): Environment / continuing mandamus\n- Pearl & Dean v. Shoemart (G.R. No. 148222, 2003): Intellectual property\n- Ang v. Court of Appeals (G.R. No. 182835, 2010): Electronic evidence / RA 9262\n- Disini v. Secretary of Justice (G.R. No. 203335, 2014): Cybercrime / free speech\n- Oposa v. Factoran (G.R. No. 101083, 1993): Environment / intergenerational responsibility"
+  },
+  {
+    "id": "oos-click-wrap",
+    "type": "out_of_scope",
+    "question": "What did the Supreme Court say about click-wrap agreements under RA 8792?",
+    "passed": true,
+    "problems": [],
+    "intent": "out_of_scope",
+    "cited": [],
+    "seconds": 10.9,
+    "answer": "That is not in the six Supreme Court decisions I've indexed, so I can't answer it from them. I currently cover:\n\n- Knights of Rizal v. DMCI Homes (G.R. No. 213948, 2017): Cultural heritage\n- MMDA v. Concerned Residents of Manila Bay (G.R. Nos. 171947-48, 2008): Environment / continuing mandamus\n- Pearl & Dean v. Shoemart (G.R. No. 148222, 2003): Intellectual property\n- Ang v. Court of Appeals (G.R. No. 182835, 2010): Electronic evidence / RA 9262\n- Disini v. Secretary of Justice (G.R. No. 203335, 2014): Cybercrime / free speech\n- Oposa v. Factoran (G.R. No. 101083, 1993): Environment / intergenerational responsibility"
+  }
+]
