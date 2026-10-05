@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "notes": "must_mention: every inner list must match at least one of its phrases (case-insensitive). source_case_ids: every id must appear in response.sources. Keywords were drafted from search summaries and memory; check them against data/raw/*.txt after Phase 1.",
+  "decline_markers": [
+    "not in the",
+    "not among",
+    "don't have",
+    "do not have",
+    "couldn't find",
+    "could not find",
+    "outside the"
+  ],
+  "questions": [
+    {
+      "id": "digest-knights",
+      "type": "digest",
+      "question": "Make a case digest of Knights of Rizal v. DMCI Homes.",
+      "expect": {
+        "intent": "digest",
+        "source_case_ids": ["gr-213948"],
+        "must_mention": [["facts"], ["issue"], ["ruling", "held"], ["Torre de Manila"]]
+      }
+    },
+    {
+      "id": "digest-mmda",
+      "type": "digest",
+      "question": "Provide a case digest for G.R. No. 171947.",
+      "expect": {
+        "intent": "digest",
+        "source_case_ids": ["gr-171947"],
+        "must_mention": [["facts"], ["issue"], ["ruling", "held"], ["Manila Bay"]]
+      }
+    },
+    {
+      "id": "digest-pearl-dean",
+      "type": "digest",
+      "question": "Digest Pearl & Dean v. Shoemart.",
+      "expect": {
+        "intent": "digest",
+        "source_case_ids": ["gr-148222"],
+        "must_mention": [["facts"], ["issue"], ["ruling", "held"], ["light box", "lightbox"]]
+      }
+    },
+    {
+      "id": "digest-ang",
+      "type": "digest",
+      "question": "Make a case digest of G.R. No. 182835.",
+      "expect": {
+        "intent": "digest",
+        "source_case_ids": ["gr-182835"],
+        "must_mention": [["facts"], ["issue"], ["ruling", "held"], ["9262"]]
+      }
+    },
+    {
+      "id": "digest-disini",
+      "type": "digest",
+      "question": "Case digest of Disini v. Secretary of Justice.",
+      "expect": {
+        "intent": "digest",
+        "source_case_ids": ["gr-203335"],
+        "must_mention": [["facts"], ["issue"], ["ruling", "held"], ["Cybercrime Prevention Act", "10175"]]
+      }
+    },
+    {
+      "id": "digest-oposa",
+      "type": "digest",
+      "question": "Make a case digest of Oposa v. Factoran.",
+      "expect": {
+        "intent": "digest",
+        "source_case_ids": ["gr-101083"],
+        "must_mention": [["facts"], ["issue"], ["ruling", "held"], ["timber license", "TLA"]]
+      }
+    },
+    {
+      "id": "fact-knights-why-dismissed",
+      "type": "fact",
+      "question": "Why did the Supreme Court refuse to stop the construction of Torre de Manila?",
+      "expect": {
+        "source_case_ids": ["gr-213948"],
+        "must_mention": [["no law", "no existing law", "not prohibited", "no statute"], ["mandamus"]]
+      }
+    },
+    {
+      "id": "fact-mmda-water-standard",
+      "type": "fact",
+      "question": "To what water quality classification did the Court order Manila Bay to be restored?",
+      "expect": {
+        "source_case_ids": ["gr-171947"],
+        "must_mention": [["SB"], ["swimming", "contact recreation", "skin-diving"]]
+      }
+    },
+    {
+      "id": "fact-pearl-dean-copyright-scope",
+      "type": "fact",
+      "question": "Did Pearl & Dean's copyright registration protect the light boxes themselves?",
+      "expect": {
+        "source_case_ids": ["gr-148222"],
+        "must_mention": [["drawing", "drawings"]]
+      }
+    },
+    {
+      "id": "fact-ang-ree-criminal",
+      "type": "fact",
+      "question": "Do the Rules on Electronic Evidence apply to criminal cases?",
+      "expect": {
+        "source_case_ids": ["gr-182835"],
+        "must_mention": [["civil"], ["criminal"]]
+      }
+    },
+    {
+      "id": "fact-disini-struck-down",
+      "type": "fact",
+      "question": "Which provisions of the Cybercrime Prevention Act were declared unconstitutional?",
+      "expect": {
+        "source_case_ids": ["gr-203335"],
+        "must_mention": [["4(c)(3)"], ["section 12", "sec. 12"], ["section 19", "sec. 19"]]
+      }
+    },
+    {
+      "id": "fact-oposa-doctrine",
+      "type": "fact",
+      "question": "What doctrine did Oposa v. Factoran recognize?",
+      "expect": {
+        "source_case_ids": ["gr-101083"],
+        "must_mention": [["intergenerational"], ["healthful ecology", "balanced and healthful"]]
+      }
+    },
+    {
+      "id": "followup-oposa-petitioners",
+      "type": "follow_up",
+      "active_case_id": "gr-101083",
+      "history": [
+        {"role": "user", "content": "Make a case digest of Oposa v. Factoran."},
+        {"role": "assistant", "content": "(digest omitted)"}
+      ],
+      "question": "Who were the petitioners, and how could they sue on behalf of others?",
+      "expect": {
+        "intent": "follow_up",
+        "source_case_ids": ["gr-101083"],
+        "must_mention": [["minor", "minors", "children"], ["unborn", "generations", "class suit"]]
+      }
+    },
+    {
+      "id": "followup-knights-ponente",
+      "type": "follow_up",
+      "active_case_id": "gr-213948",
+      "history": [
+        {"role": "user", "content": "Digest Knights of Rizal v. DMCI Homes."},
+        {"role": "assistant", "content": "(digest omitted)"}
+      ],
+      "question": "Who wrote the decision?",
+      "expect": {
+        "intent": "follow_up",
+        "source_case_ids": ["gr-213948"],
+        "must_mention": [["Carpio"]]
+      }
+    },
+    {
+      "id": "search-environment",
+      "type": "search",
+      "question": "Show me environmental law cases.",
+      "expect": {
+        "intent": "search",
+        "source_case_ids": ["gr-101083", "gr-171947"]
+      }
+    },
+    {
+      "id": "search-cyber",
+      "type": "search",
+      "question": "Are there cases about online libel or cybercrime?",
+      "expect": {
+        "intent": "search",
+        "source_case_ids": ["gr-203335"]
+      }
+    },
+    {
+      "id": "general-mandamus",
+      "type": "general",
+      "question": "What is a writ of mandamus?",
+      "expect": {
+        "intent": "general",
+        "must_mention": [["mandamus"]]
+      }
+    },
+    {
+      "id": "oos-eat-bulaga",
+      "type": "out_of_scope",
+      "question": "What did the Supreme Court rule in the Eat Bulaga trademark case, G.R. No. 267398?",
+      "expect": {
+        "intent": "out_of_scope",
+        "decline": true,
+        "none_of": ["the supreme court affirmed", "the supreme court ruled that tvj"]
+      }
+    },
+    {
+      "id": "oos-admin-circular",
+      "type": "out_of_scope",
+      "question": "Summarize SC Administrative Circular No. 24-2024 on messaging app screenshots.",
+      "expect": {
+        "intent": "out_of_scope",
+        "decline": true,
+        "none_of": ["digital forensic report"]
+      }
+    },
+    {
+      "id": "oos-click-wrap",
+      "type": "out_of_scope",
+      "question": "What did the Supreme Court say about click-wrap agreements under RA 8792?",
+      "expect": {
+        "intent": "out_of_scope",
+        "decline": true,
+        "none_of": ["ip address", "the supreme court ruled that click-wrap"]
+      }
+    }
+  ]
+}

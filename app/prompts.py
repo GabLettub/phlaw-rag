@@ -92,7 +92,7 @@ from the indexed decisions):". If a term is used in Philippine practice, \
 say so. This is not legal advice."""
 
 OUT_OF_SCOPE_REPLY = """\
-That isn't in the six Supreme Court decisions I've indexed, so I can't \
+That is not in the six Supreme Court decisions I've indexed, so I can't \
 answer it from them. I currently cover:
 
 {cases}"""
