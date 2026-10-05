@@ -150,6 +150,20 @@ def section_at(markers, offset):
     return markers[position - 1][1] if position else "body"
 
 
+def dispositive_span(markers, length):
+    """Return (start, end) of the dispositive section, or None.
+
+    It runs from the "WHEREFORE" paragraph to the start of the notes
+    section (or the end of the text when there is none).
+    """
+    for index, (offset, section) in enumerate(markers):
+        if section == "dispositive":
+            following = markers[index + 1:]
+            end = following[0][0] if following else length
+            return offset, end
+    return None
+
+
 def chunk_decision(text, case):
     """Split one decision into LangChain Documents ready to index.
 
@@ -172,11 +186,18 @@ def chunk_decision(text, case):
     }
     docs = splitter.create_documents([text], metadatas=[base])
     markers = section_markers(text)
+    span = dispositive_span(markers, len(text))
     for index, doc in enumerate(docs):
+        start = doc.metadata["start_index"]
+        end = start + len(doc.page_content)
         doc.metadata["chunk_index"] = index
-        doc.metadata["section"] = section_at(
-            markers, doc.metadata["start_index"]
-        )
+        # A chunk that merely overlaps the disposition counts as
+        # dispositive, even if it starts a few sentences earlier;
+        # otherwise the key chunk is often mislabelled.
+        if span and start < span[1] and end > span[0]:
+            doc.metadata["section"] = "dispositive"
+        else:
+            doc.metadata["section"] = section_at(markers, start)
     return docs
 
 
