@@ -2,6 +2,7 @@
 
 import re
 
+from groq import BadRequestError
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -49,6 +50,11 @@ DIGEST_QUERIES = (
     ("WHEREFORE the petition is decided", 3, "dispositive"),
 )
 
+# Structured output sometimes fails because the model writes prose
+# instead of the requested JSON (Groq reports a 400). One retry with
+# more reasoning effort usually succeeds.
+RETRY_EFFORT = "high"
+
 # Digests are slow and use up free-tier quota, so each is generated once
 # per process and cleared when the case is re-ingested.
 _digest_cache = {}
@@ -74,6 +80,23 @@ class SearchResult(BaseModel):
     """The verifier's verdict: the matching cases, possibly none."""
 
     matches: list[SearchMatch] = Field(default_factory=list)
+
+
+def invoke_structured(prompt, schema, variables, max_tokens):
+    """Run a prompt and return an instance of schema.
+
+    Use json_schema mode, which is more reliable on Groq than function
+    calling. If the model still answers in prose, retry once at
+    RETRY_EFFORT before giving up and re-raising the error.
+    """
+    for effort in (None, RETRY_EFFORT):
+        llm = get_llm("answer", max_tokens=max_tokens, effort=effort)
+        structured = llm.with_structured_output(schema, method="json_schema")
+        try:
+            return (prompt | structured).invoke(variables)
+        except BadRequestError:
+            if effort == RETRY_EFFORT:
+                raise
 
 
 def format_excerpts(docs):
@@ -196,13 +219,15 @@ def build_digest(case_id):
     prompt = ChatPromptTemplate.from_messages(
         [("system", prompts.DIGEST_SYSTEM), ("human", prompts.DIGEST_USER)]
     )
-    llm = get_llm("answer", max_tokens=DIGEST_MAX_TOKENS)
-    text = (prompt | llm.with_structured_output(DigestText)).invoke(
+    text = invoke_structured(
+        prompt,
+        DigestText,
         {
             "title": meta["title"],
             "gr_no": meta["gr_no"],
             "excerpts": format_excerpts(docs),
-        }
+        },
+        DIGEST_MAX_TOKENS,
     )
     sections = []
     for heading, items in (
@@ -325,10 +350,11 @@ def answer_search(message, verify=False):
     prompt = ChatPromptTemplate.from_messages(
         [("system", prompts.SEARCH_SYSTEM), ("human", prompts.SEARCH_USER)]
     )
-    llm = get_llm("answer", max_tokens=ANSWER_MAX_TOKENS)
-    structured = llm.with_structured_output(SearchResult, method="json_schema")
-    result = (prompt | structured).invoke(
-        {"question": message, "candidates": "\n\n".join(candidates)}
+    result = invoke_structured(
+        prompt,
+        SearchResult,
+        {"question": message, "candidates": "\n\n".join(candidates)},
+        ANSWER_MAX_TOKENS,
     )
     by_case = {group[0].metadata["case_id"]: group for group in top}
     lines = []
