@@ -2,9 +2,13 @@
 //
 // Input : the JSON that POST /digest returned
 //         {case_id, title, gr_no, sections[{heading, paragraphs[]}], sources[]}
-// Output: one item whose JSON is the body for Notion's "create a page"
-//         call (POST https://api.notion.com/v1/pages), so the next
-//         HTTP Request node can send it as-is.
+// Output: one item with the pieces of Notion's "create a page" request
+//         (POST https://api.notion.com/v1/pages):
+//           parent, properties, children  the request body, as objects
+//           bodyString                    the same body as one JSON string
+//         Send bodyString with a "Raw" body (content type
+//         application/json). That avoids n8n's JSON-body field, which can
+//         turn an object expression into "[object Object]".
 //
 // Why a Code node: a digest has a different number of paragraphs each
 // time, which the Notion node's fixed block list cannot express.
@@ -116,6 +120,7 @@ function buildPage(digest) {
 // Inside n8n `$input` exists: return the page body. Outside n8n (a
 // plain `node` test) export the function instead.
 if (typeof $input !== "undefined") {
-  return [{ json: buildPage($input.first().json) }];
+  const page = buildPage($input.first().json);
+  return [{ json: { ...page, bodyString: JSON.stringify(page) } }];
 }
 module.exports = { buildPage, splitText };

@@ -152,21 +152,61 @@ may call this *Publish*).
 
 ## 4. Workflow B: digest page (stretch goal)
 
-Do this only after workflow A works and the app is deployed. Create it as a
-continuation of the success branch (or a second workflow triggered by
-workflow A).
+Do this only after workflow A works. Workflow B is a **separate workflow**
+that workflow A calls after a successful ingest.
+
+**Prerequisites in Notion** (see [notion-setup.md](notion-setup.md))
+- A **Case Digests** database with the properties `Title` (title), `Case ID`
+  (text), `G.R. No.` (text), `Generated at` (date) and `Sources` (URL). The
+  names must match exactly.
+- That database is **connected to your integration** (⋯ → Connections).
+- Its **database id** (32 characters in the address, before `?v=`).
+- In **Case Queue**, a `Digest` property of type Relation pointing to Case
+  Digests, **one-way** (do not show it on the Case Digests side).
+
+### 4a. In workflow A: call workflow B
+
+Add an **Execute Workflow** node (named *Execute Sub-workflow* in newer n8n)
+after **Notion (success)**, so the row is already `Indexed` when B starts.
+Choose workflow B from the list and pass two values **[Unverified labels]**:
+
+| Field | Value |
+|---|---|
+| `case_id` | `{{ $('Notion Trigger').item.json['Case ID'] }}` |
+| `queue_page_id` | `{{ $('Notion Trigger').item.json.id }}` |
+
+Type each expression on one line with nothing after it (a stray newline
+breaks Notion ids). While testing, leave *Wait for sub-workflow completion*
+on, so an error in B shows up in A's run.
+
+### 4b. Workflow B: the nodes
 
 | # | Node | Settings |
 |---|---|---|
-| 1 | **HTTP Request** | `POST {API}/digest`, same Header Auth, body `{"case_id": "<Case ID>"}`. Timeout `180000`. Digests take 10–35 s. |
-| 2 | **Code** | Language JavaScript, *Run Once for All Items*. Paste [`n8n/build-digest-blocks.js`](../n8n/build-digest-blocks.js) and set `DIGESTS_DATABASE_ID`. |
-| 3 | **HTTP Request** | `POST https://api.notion.com/v1/pages`. Authentication: **Predefined credential type → Notion API**. Header `Notion-Version: 2022-06-28` **[Unverified: check the current version at developers.notion.com]**. Body: JSON, using the whole item from the Code node: `{{ $json }}`. |
-| 4 | **HTTP Request** (or Notion node) | Link the digest: `PATCH https://api.notion.com/v1/pages/<Case Queue page id>` with `{"properties": {"Digest": {"relation": [{"id": "<new page id from node 3>"}]}}}`. |
+| 1 | **When Executed by Another Workflow** | Input data mode: *Accept all data* **[Unverified label]**. |
+| 2 | **HTTP Request** (digest) | `POST {API}/digest`, Header Auth credential, Body Content Type **JSON**, Specify Body **Using Fields Below**, one field `case_id` = `{{ $json.case_id }}`. Options: Timeout `180000`. Settings: **Retry On Fail**, 3 tries, wait `45000` ms (Groq's free tier rate-limits long calls). |
+| 3 | **Code** | Language JavaScript, *Run Once for All Items*. Paste [`n8n/build-digest-blocks.js`](../n8n/build-digest-blocks.js) and set `DIGESTS_DATABASE_ID` at the top. |
+| 4 | **HTTP Request** (create page) | `POST https://api.notion.com/v1/pages`. Authentication: **Predefined credential type → Notion API**. Send Headers: `Notion-Version` = `2022-06-28` **[Unverified: check the current version at developers.notion.com]**. Send Body on, Body Content Type **Raw**, Content Type `application/json`, Body = `{{ $json.bodyString }}`. |
+| 5 | **Notion** (link) | Database Page → **Update**. Page **By ID**, Expression: `{{ $('When Executed by Another Workflow').item.json.queue_page_id }}`. Property **Digest** (Relation): the new page's id, `{{ $('HTTP Request (create page)').item.json.id }}` (use your node's real name) **[Unverified field label]**. |
 
-Why raw HTTP for node 3: a digest has a variable number of paragraphs, and
-the Notion node's block list is a fixed form. The Code node builds the exact
-request body, splits text under Notion's 2,000-character limit, and stops
-with a clear error if a digest would exceed 100 blocks.
+Why raw HTTP and a Raw body for node 4: a digest has a variable number of
+paragraphs, so the Notion node's fixed block list cannot express it, and
+n8n's JSON-body field can turn an object into `[object Object]`. The Code
+node builds the exact request, splits text under Notion's 2,000-character
+limit, and stops with a clear error if a digest would exceed 100 blocks. A
+Raw body sends its string unchanged.
+
+### 4c. Test B on its own first
+
+Run workflow B by itself with sample input: in node 1 use *Set mock data* to
+provide `{"case_id": "gr-213948", "queue_page_id": "<that row's page id>"}`.
+Check, in order, that node 2 returns `sections`, node 3 returns `children`
+and `bodyString`, node 4 returns a page `id`, and a new page appears in Case
+Digests. Then run workflow A with a `Queued` row.
+
+**Known limits.** Running B twice for the same case creates a second digest
+page; nothing deduplicates them. Digests are written by a language model, so
+read them before publishing the Notion page.
 
 ## 5. The test that goes in the README
 
