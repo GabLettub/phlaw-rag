@@ -44,7 +44,7 @@
         "propertiesUi": {
           "propertyValues": [
             {
-              "key": "Status|select",
+              "key": "=Status|select",
               "selectValue": "Processing"
             }
           ]
@@ -212,6 +212,60 @@
           "name": "Notion account"
         }
       }
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "F4bynZtHDHyzWD9s",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/F4bynZtHDHyzWD9s",
+          "cachedResultName": "phlaw digest page"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "case_id": "={{ $('Notion Trigger').item.json['Case ID'] }}",
+            "queue_page_id": "={{ $('Notion Trigger').item.json.id }}"
+          },
+          "matchingColumns": [
+            ""
+          ],
+          "schema": [
+            {
+              "id": "case_id",
+              "displayName": "case_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "queue_page_id",
+              "displayName": "queue_page_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.4,
+      "position": [
+        1120,
+        -96
+      ],
+      "id": "7b516b6d-ef2a-4ff7-a2dc-92552a808974",
+      "name": "Create Digest Page"
     }
   ],
   "connections": {
@@ -265,9 +319,31 @@
           }
         ]
       ]
+    },
+    "Notion (success)": {
+      "main": [
+        [
+          {
+            "node": "Create Digest Page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
-  "pinData": {},
+  "pinData": {
+    "Create Digest Page": [
+      {
+        "name": "First item",
+        "code": 1
+      },
+      {
+        "name": "Second item",
+        "code": 2
+      }
+    ]
+  },
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "17b9783f5169ea2f5f8a8524ffdef78a9df71f7f3e5fe05ad265050b13b304e1"

@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "case_id"
+            },
+            {
+              "name": "queue_page_id"
+            }
+          ]
+        }
+      },
+      "id": "c055762a-8fe7-4141-a639-df2372f30060",
+      "typeVersion": 1.1,
+      "name": "When Executed by Another Workflow",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        272,
+        352
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// n8n \"Code\" node (language: JavaScript, mode: Run Once for All Items).\n//\n// Input : the JSON that POST /digest returned\n//         {case_id, title, gr_no, sections[{heading, paragraphs[]}], sources[]}\n// Output: one item with the pieces of Notion's \"create a page\" request\n//         (POST https://api.notion.com/v1/pages):\n//           parent, properties, children  the request body, as objects\n//           bodyString                    the same body as one JSON string\n//         Send bodyString with a \"Raw\" body (content type\n//         application/json). That avoids n8n's JSON-body field, which can\n//         turn an object expression into \"[object Object]\".\n//\n// Why a Code node: a digest has a different number of paragraphs each\n// time, which the Notion node's fixed block list cannot express.\n//\n// Notion limits (from memory, check developers.notion.com):\n// - a rich_text \"content\" is at most 2,000 characters\n// - a request may contain at most 100 child blocks\n\n// Paste your Case Digests database id here (see docs/notion-setup.md).\nconst DIGESTS_DATABASE_ID = \"3f189c9287b2805dbf72df2f31bef279\";\n\nconst MAX_TEXT = 1800; // stay under Notion's 2,000-character limit\nconst MAX_BLOCKS = 100;\n\nfunction text(content, link) {\n  const piece = { type: \"text\", text: { content } };\n  if (link) piece.text.link = { url: link };\n  return piece;\n}\n\n// Split long text at sentence ends so no block exceeds MAX_TEXT. The\n// backend already does this for digests; this is a second safety net.\nfunction splitText(value) {\n  const pieces = [];\n  let current = \"\";\n  for (const sentence of String(value).split(/(?<=[.!?])\\s+/)) {\n    let rest = sentence;\n    while (rest.length > MAX_TEXT) {\n      if (current) {\n        pieces.push(current);\n        current = \"\";\n      }\n      pieces.push(rest.slice(0, MAX_TEXT));\n      rest = rest.slice(MAX_TEXT);\n    }\n    if (current && current.length + 1 + rest.length > MAX_TEXT) {\n      pieces.push(current);\n      current = rest;\n    } else {\n      current = current ? `${current} ${rest}` : rest;\n    }\n  }\n  if (current) pieces.push(current);\n  return pieces;\n}\n\nfunction heading(content) {\n  return {\n    object: \"block\",\n    type: \"heading_2\",\n    heading_2: { rich_text: [text(content)] },\n  };\n}\n\nfunction paragraph(content) {\n  return {\n    object: \"block\",\n    type: \"paragraph\",\n    paragraph: { rich_text: [text(content)] },\n  };\n}\n\nfunction bullet(content, link) {\n  return {\n    object: \"block\",\n    type: \"bulleted_list_item\",\n    bulleted_list_item: { rich_text: [text(content, link)] },\n  };\n}\n\nfunction buildPage(digest) {\n  const blocks = [];\n  for (const section of digest.sections) {\n    if (!section.paragraphs.length) continue;\n    blocks.push(heading(section.heading));\n    for (const para of section.paragraphs) {\n      for (const piece of splitText(para)) blocks.push(paragraph(piece));\n    }\n  }\n  if (digest.sources && digest.sources.length) {\n    blocks.push(heading(\"Sources\"));\n    for (const source of digest.sources) {\n      const label = `[${source.section}] ${source.snippet}`;\n      blocks.push(bullet(label.slice(0, MAX_TEXT), source.url));\n    }\n  }\n  if (blocks.length > MAX_BLOCKS) {\n    throw new Error(\n      `Digest has ${blocks.length} blocks; Notion allows ${MAX_BLOCKS} ` +\n        \"per request. Append the rest in a second request.\",\n    );\n  }\n  const firstUrl = digest.sources && digest.sources[0]\n    ? digest.sources[0].url\n    : null;\n  return {\n    parent: { database_id: DIGESTS_DATABASE_ID },\n    properties: {\n      Title: { title: [text(digest.title)] },\n      \"Case ID\": { rich_text: [text(digest.case_id)] },\n      \"G.R. No.\": { rich_text: [text(digest.gr_no)] },\n      \"Generated at\": { date: { start: new Date().toISOString() } },\n      Sources: { url: firstUrl },\n    },\n    children: blocks,\n  };\n}\n\n// Inside n8n `$input` exists: return the page body. Outside n8n (a\n// plain `node` test) export the function instead.\nif (typeof $input !== \"undefined\") {\n  const page = buildPage($input.first().json);\n  return [{ json: { ...page, bodyString: JSON.stringify(page) } }];\n}\nmodule.exports = { buildPage, splitText };\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        352
+      ],
+      "id": "08e9df7f-6a5c-4c0f-b765-1f727b4d7fe5",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://phlaw-rag.onrender.com/digest",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "=case_id",
+              "value": "={{ $json.case_id }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 180000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        496,
+        352
+      ],
+      "id": "b058c41c-40ba-48ba-9a97-ef1a886c49d0",
+      "name": "HTTP Request (digest)",
+      "retryOnFail": true,
+      "waitBetweenTries": 4500,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "x0A8cvAXKlbYfBCL",
+          "name": "phlaw ingest token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.notion.com/v1/pages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "notionApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Notion-Version",
+              "value": "2026-03-11"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ $json.bodyString }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        944,
+        352
+      ],
+      "id": "cc22ed4b-a936-457b-9d10-83f3d02b5f79",
+      "name": "HTTP Request (create page)",
+      "credentials": {
+        "notionApi": {
+          "id": "wGqb40kpjdcPcOxO",
+          "name": "Notion account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "value": "={{ $('When Executed by Another Workflow').first().json.queue_page_id }}",
+          "mode": "id"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Digest|relation",
+              "relationValue": [
+                "={{ $json.id }}"
+              ]
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 3,
+      "position": [
+        1184,
+        352
+      ],
+      "id": "c1699c23-af8a-488e-aa82-d845b86b1678",
+      "name": "Update a database page",
+      "credentials": {
+        "notionApi": {
+          "id": "wGqb40kpjdcPcOxO",
+          "name": "Notion account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request (digest)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request (create page)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request (digest)": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request (create page)": {
+      "main": [
+        [
+          {
+            "node": "Update a database page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {
+    "When Executed by Another Workflow": [
+      {
+        "case_id": "gr-213948",
+        "queue_page_id": "3f189c92-87b2-802d-83f4-d13837fe9958"
+      }
+    ]
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "17b9783f5169ea2f5f8a8524ffdef78a9df71f7f3e5fe05ad265050b13b304e1"
+  }
+}

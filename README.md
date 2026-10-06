@@ -74,7 +74,7 @@ indexed.
 | RAG | LangChain 1.x (`langchain-groq`, `langchain-pinecone`) |
 | Vector store | Pinecone serverless, hosted `multilingual-e5-large` embeddings |
 | LLMs | `openai/gpt-oss-120b` (answers), `openai/gpt-oss-20b` (router), via Groq |
-| Automation | n8n + Notion (ingest workflow built; digest pages not yet; see below) |
+| Automation | n8n + Notion (ingest workflow and digest-page workflow; see below) |
 | Hosting | Render (API), Vercel (frontend) |
 
 ## How retrieval works
@@ -167,10 +167,11 @@ The checks cannot judge legal correctness. Read `answers.json`.
 Adding a decision does not need a code change. An admin adds a row to a
 Notion database, and an n8n workflow indexes it.
 
-> **Status.** The ingest workflow (A) is built and has been run end to end
-> against the deployed API. The digest-page workflow (B) is **not built
-> yet**: the `/digest` endpoint and a tested Code-node script exist, but
-> there is no workflow that uses them.
+> **Status.** Both workflows are built. Workflow A (ingest) has been run
+> end to end against the deployed API. Workflow B (digest page) has been run
+> in n8n against Notion with test input: it created a digest page and
+> linked it to the queue row. A full recorded run of A followed by B is not
+> in this repository yet, and workflow B's export is not committed yet.
 
 ### Workflow A: ingest (built)
 
@@ -202,14 +203,29 @@ credentials not included), plus the setup guides
 [`docs/notion-setup.md`](docs/notion-setup.md) and
 [`docs/n8n-setup.md`](docs/n8n-setup.md).
 
-### Workflow B: digest pages (not built)
+### Workflow B: digest page (built)
 
-The plan is for n8n to call `POST /digest` after a successful ingest and
-create a page in a Notion **Case Digests** database, with one heading per
-section. [`n8n/build-digest-blocks.js`](n8n/build-digest-blocks.js) is the
-Code-node script that turns the `/digest` response into the Notion request
-(it splits text under Notion's block-size limit). It has been tested with
-sample data in Node, but not inside n8n or against Notion.
+Workflow A calls workflow B (an Execute Workflow node) after a successful
+ingest. B receives the case id and the queue row's page id:
+
+```
+POST /digest           the API writes Facts / Issues / Ruling / Doctrine
+Code node              builds the Notion request from that response
+POST api.notion.com    creates a page in Case Digests (one block per paragraph)
+Notion update          sets the queue row's Digest relation to the new page
+```
+
+- [`n8n/build-digest-blocks.js`](n8n/build-digest-blocks.js) is the Code-node
+  script. It splits text under Notion's block-size limit, skips empty
+  sections, accepts the database id in any pasted form, and returns the whole
+  request as a ready-made string, because n8n's JSON-body field mangled
+  nested objects when tried.
+- Notion needs the Case Digests properties named exactly `Title`, `Case ID`,
+  `G.R. No.`, `Generated at` and `Sources`.
+- **Digests are written by a language model** from the decision text. Read
+  one before sharing the Notion page.
+- **Running B twice for the same case creates a second page.** Nothing
+  deduplicates them; delete extras by hand.
 
 ### What to know
 
@@ -221,9 +237,8 @@ sample data in Node, but not inside n8n or against Notion.
   `502 Could not fetch the URL` from Render and did not recur; the API now
   reports the reason (for example `HTTP 403` or `timeout`) so a repeat can
   be diagnosed.
-- **The website's "How digests get into Notion" panel describes the full
-  intended flow,** including Workflow B. Until B exists, digests are
-  generated live in the chat and are not saved to Notion.
+- **Digests in the chat are generated live and are not saved.** Only
+  Workflow B writes a digest to Notion.
 
 ## Limitations
 

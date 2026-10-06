@@ -80,7 +80,7 @@ Create a workflow named `phlaw ingest`. Add these nodes in order.
 | 1 | **Notion Trigger** | Event **Page added to database** (n8n also offers *Page updated in database*). Database: pick **Case Queue**. Poll every minute while testing. |
 | 2 | **HTTP Request** (wake-up) | `GET {API}/health`. Timeout `120000` ms. Render's free tier sleeps and can take about a minute to wake; this absorbs it. |
 | 3 | **Notion** | Resource **Database Page**, operation **Update**. Page: the trigger's page id. Set **Status** = `Processing`. |
-| 4 | **HTTP Request** (ingest) | Method `POST`, URL `{API}/ingest`. Authentication **Generic credential type → Header Auth** → `phlaw ingest token`. Body: JSON (below). Timeout `180000` ms. Settings tab → **On Error** → *Continue (using error output)* **[Unverified name]**. |
+| 4 | **HTTP Request** (ingest) | Method `POST`, URL `{API}/ingest`. Authentication **Generic credential type → Header Auth** → `phlaw ingest token`. Body: JSON (below). Timeout `180000` ms. Settings tab → **On Error** → *Continue (using error output)*. Also turn on **Retry On Fail** (about 3 tries, 20 s apart) for Render's cold start. |
 | 5a | **Notion** (success) | Database Page → Update the same page: **Status** = `Indexed`, **Chunks** = `{{ $json.chunks }}`, **Indexed at** = `{{ $now }}`. Connect to node 4's *success* output. |
 | 5b | **Notion** (failure) | Database Page → Update: **Status** = `Failed`, **Error** = the error message. Connect to node 4's *error* output. |
 
@@ -150,9 +150,9 @@ the demo.
 When it works, switch the workflow to **Active** (top right; newer versions
 may call this *Publish*).
 
-## 4. Workflow B: digest page (stretch goal)
+## 4. Workflow B: digest page
 
-Do this only after workflow A works. Workflow B is a **separate workflow**
+Do this after workflow A works. Workflow B is a **separate workflow**
 that workflow A calls after a successful ingest.
 
 **Prerequisites in Notion** (see [notion-setup.md](notion-setup.md))
@@ -168,26 +168,28 @@ that workflow A calls after a successful ingest.
 
 Add an **Execute Workflow** node (named *Execute Sub-workflow* in newer n8n)
 after **Notion (success)**, so the row is already `Indexed` when B starts.
-Choose workflow B from the list and pass two values **[Unverified labels]**:
+Settings: **Source** *Database*, **Workflow** *From list* → workflow B, then
+under **Workflow Inputs** two values:
 
 | Field | Value |
 |---|---|
 | `case_id` | `{{ $('Notion Trigger').item.json['Case ID'] }}` |
 | `queue_page_id` | `{{ $('Notion Trigger').item.json.id }}` |
 
-Type each expression on one line with nothing after it (a stray newline
-breaks Notion ids). While testing, leave *Wait for sub-workflow completion*
-on, so an error in B shows up in A's run.
+Mode *Run once with all items*. Type each expression on one line with
+nothing after it (a stray newline breaks Notion ids). While testing, leave
+**Wait for Sub-Workflow Completion** on, so an error in B shows up in A's
+run. Save workflow B first; n8n can only list saved workflows.
 
 ### 4b. Workflow B: the nodes
 
 | # | Node | Settings |
 |---|---|---|
-| 1 | **When Executed by Another Workflow** | Input data mode: *Accept all data* **[Unverified label]**. |
+| 1 | **When Executed by Another Workflow** | Define the two inputs, `case_id` and `queue_page_id` (strings). They then appear as **Workflow Inputs** in A's Execute Workflow node. |
 | 2 | **HTTP Request** (digest) | `POST {API}/digest`, Header Auth credential, Body Content Type **JSON**, Specify Body **Using Fields Below**, one field `case_id` = `{{ $json.case_id }}`. Options: Timeout `180000`. Settings: **Retry On Fail**, 3 tries, wait `45000` ms (Groq's free tier rate-limits long calls). |
 | 3 | **Code** | Language JavaScript, *Run Once for All Items*. Paste [`n8n/build-digest-blocks.js`](../n8n/build-digest-blocks.js) and set `DIGESTS_DATABASE_ID` at the top. |
-| 4 | **HTTP Request** (create page) | `POST https://api.notion.com/v1/pages`. Authentication: **Predefined credential type → Notion API**. Send Headers: `Notion-Version` = `2022-06-28` **[Unverified: check the current version at developers.notion.com]**. Send Body on, Body Content Type **Raw**, Content Type `application/json`, Body = `{{ $json.bodyString }}`. |
-| 5 | **Notion** (link) | Database Page → **Update**. Page **By ID**, Expression: `{{ $('When Executed by Another Workflow').item.json.queue_page_id }}`. Property **Digest** (Relation): the new page's id, `{{ $('HTTP Request (create page)').item.json.id }}` (use your node's real name) **[Unverified field label]**. |
+| 4 | **HTTP Request** (create page) | `POST https://api.notion.com/v1/pages`. Authentication: **Predefined credential type → Notion API**. Send Headers: `Notion-Version` = `2022-06-28` (worked in testing; Notion may offer newer versions). Send Body on, Body Content Type **Raw**, Content Type `application/json`, Body = `{{ $json.bodyString }}`. |
+| 5 | **Notion** (link) | Resource *Database Page*, operation **Update**. **Page**: By ID, Expression, `{{ $('When Executed by Another Workflow').first().json.queue_page_id }}`. **Properties**: choose the key **Digest** from the dropdown (do not type an expression there), then give its relation value `{{ $json.id }}`, the new digest page's id. |
 
 Why raw HTTP and a Raw body for node 4: a digest has a variable number of
 paragraphs, so the Notion node's fixed block list cannot express it, and
@@ -196,13 +198,33 @@ node builds the exact request, splits text under Notion's 2,000-character
 limit, and stops with a clear error if a digest would exceed 100 blocks. A
 Raw body sends its string unchanged.
 
+Two traps in node 5:
+- The **Page** is the Case Queue **row** (from `queue_page_id`); the **new
+  digest page's id** goes into the **Digest** value. Mixing them up, or
+  typing the new page's id into *Key Name or ID*, makes Notion reply with a
+  long "`body.properties.<id>… should be defined`" error.
+- Use `{{ $json.id }}` only for the **top-level** `id` of the create-page
+  response. The `id: "title"` nested under `properties` is a property id.
+
 ### 4c. Test B on its own first
 
-Run workflow B by itself with sample input: in node 1 use *Set mock data* to
-provide `{"case_id": "gr-213948", "queue_page_id": "<that row's page id>"}`.
-Check, in order, that node 2 returns `sections`, node 3 returns `children`
-and `bodyString`, node 4 returns a page `id`, and a new page appears in Case
-Digests. Then run workflow A with a `Queued` row.
+Run workflow B by itself with sample input: pin the trigger's output to
+`[{"case_id": "gr-213948", "queue_page_id": "<that row's page id>"}]` (the
+pencil icon in the Output panel; *Set mock data* only shows when a node has
+no output yet). Then use **Execute workflow** to run all of B, not single
+nodes: the editor's expression previews can show `null` for the trigger's
+values until the whole workflow has run with the pinned data. Check, in
+order, that node 2 returns `sections`, node 3 returns `children` and
+`bodyString`, node 4 returns a page `id`, node 5 sets the row's **Digest**,
+and a new page appears in Case Digests. Then run workflow A with a `Queued`
+row. **Unpin the trigger before exporting**, or the pinned page id is saved
+in the export.
+
+If the Page expression keeps previewing `null`, link the row from workflow A
+instead: after the Execute Workflow node, add the same Notion update with
+**Page** `{{ $('Notion Trigger').first().json.id }}` and the **Digest** value
+`{{ $json.id }}` (workflow B's last node's output is returned to A when
+**Wait for Sub-Workflow Completion** is on).
 
 **Known limits.** Running B twice for the same case creates a second digest
 page; nothing deduplicates them. Digests are written by a language model, so
@@ -218,14 +240,19 @@ read them before publishing the Notion page.
 
 ## 6. Export for the repo
 
-In each workflow: **⋯ → Download**. Save as `n8n/ingest.workflow.json` and
-`n8n/digest.workflow.json`. n8n normally exports credential *references*
-(names and ids), not the secrets **[Unverified]**, but check before you
-commit:
+In each workflow (A and B): **⋯ → Download**. Save as `n8n/ingest.workflow.json` and
+`n8n/digest.workflow.json`. n8n exports credential *references*
+(names and ids), not the secrets (checked on the ingest export), but check
+before you commit. Also make sure `pinData` is empty (unpin test data
+first) and consider removing `meta.instanceId`:
 
 ```bash
 grep -n -i -E "secret_|ntn_|X-Ingest-Token|api.notion|bearer" n8n/*.workflow.json
 ```
+
+The `api.notion` match is expected in the digest workflow, because it calls
+`https://api.notion.com/v1/pages`; it is a URL, not a secret. What matters
+is that no token value appears.
 
 and search for your actual `INGEST_TOKEN` value as well. Then update the
 README's "Status: designed, not yet built" note.
@@ -243,4 +270,9 @@ README's "Status: designed, not yet built" note.
 | Timeout on the first call | Render was asleep; the wake-up node and a long timeout handle it |
 | `503` with an HTML page titled "Render - Application loading" | Render was still waking up. Turn on **Settings → Retry On Fail** (about 5 tries, 15 s apart) on the wake-up node and (about 3 tries, 20 s apart) on the ingest node. Run the whole workflow, not a single node, so the wake-up runs first |
 | Trigger fires late | It polls; expect a delay of up to the poll interval |
+| Notion: "`body.parent.database_id` should be a valid uuid" with `?v=` in the value | You pasted the whole database address. Use only the 32 characters before `?`; the part after `?v=` is a view id. (The script now extracts it for you) |
+| Notion: "`Sources` is not a property that exists" | The Case Digests column is missing or named differently. Names must match exactly: `Title`, `Case ID`, `G.R. No.`, `Generated at`, `Sources` |
+| Notion: "`page_id` should be a valid uuid, instead was `…\n`" | A newline after the expression in the Page field. Retype it on one line (select all, delete, paste) |
+| Notion: a long list of "`body.properties.<id>….title should be defined`" | The new page's id was put in *Key Name or ID*. Choose **Digest** from that dropdown and put the id in the value |
+| Notion: "Could not extract page ID from URL: null" | The Page field is in **By URL** mode or its expression is `null`. Use **By ID** + Expression; if the preview is `null`, run the whole workflow once so the pinned data is used |
 | Same row processed twice | Re-runs are safe (stable chunk ids), but check the trigger is not set to *Page updated* without an `IF Status == Queued` check |

@@ -73,7 +73,9 @@ https://www.notion.so/yourname/1a2b3c4d5e6f47a8b9c0d1e2f3a4b5c6?v=...
                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ```
 
-You need the **Case Digests** id for the Code node in workflow B.
+You need the **Case Digests** id for the Code node in workflow B. Stop
+**before** the `?`: the text after `?v=` is a *view* id, not the database
+id, and Notion rejects it ("database_id should be a valid uuid").
 
 ## 5. Sample rows for the Case Queue
 
