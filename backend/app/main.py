@@ -245,7 +245,10 @@ def ingest_case(body: IngestRequest):
         text = ingest.fetch_clean(body.url)
     except httpx.HTTPError as exc:
         logger.warning("Fetch failed for %s: %s", body.url, exc)
-        raise HTTPException(status_code=502, detail="Could not fetch the URL.")
+        reason = ingest.describe_fetch_error(exc)
+        raise HTTPException(
+            status_code=502, detail=f"Could not fetch the URL ({reason})."
+        )
     case = {
         "id": body.case_id,
         "title": body.title,

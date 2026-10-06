@@ -85,6 +85,22 @@ def normalize_text(text):
     return text.strip()
 
 
+def describe_fetch_error(error):
+    """Return a short, safe reason for a failed download.
+
+    The reason names the kind of failure (an HTTP status, a timeout, a
+    connection problem) without including the URL, headers or any
+    response body, so it can be shown to an admin caller.
+    """
+    if isinstance(error, httpx.HTTPStatusError):
+        return f"HTTP {error.response.status_code}"
+    if isinstance(error, httpx.TimeoutException):
+        return "timeout"
+    if isinstance(error, httpx.ConnectError):
+        return "connection failed"
+    return type(error).__name__
+
+
 def fetch_clean(url):
     """Download a decision page and return only the main decision text.
 
