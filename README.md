@@ -74,7 +74,7 @@ indexed.
 | RAG | LangChain 1.x (`langchain-groq`, `langchain-pinecone`) |
 | Vector store | Pinecone serverless, hosted `multilingual-e5-large` embeddings |
 | LLMs | `openai/gpt-oss-120b` (answers), `openai/gpt-oss-20b` (router), via Groq |
-| Automation | n8n + Notion (designed, not yet built; see below) |
+| Automation | n8n + Notion (ingest workflow built; digest pages not yet; see below) |
 | Hosting | Render (API), Vercel (frontend) |
 
 ## How retrieval works
@@ -164,21 +164,66 @@ The checks cannot judge legal correctness. Read `answers.json`.
 
 ## Admin pipeline: n8n + Notion
 
-> **Status: designed, not yet built.** The backend endpoints it needs
-> exist and are token-protected; the n8n workflows and the Notion
-> databases do not yet. The frontend already describes this flow.
+Adding a decision does not need a code change. An admin adds a row to a
+Notion database, and an n8n workflow indexes it.
 
-Planned flow for adding a decision without touching code:
+> **Status.** The ingest workflow (A) is built and has been run end to end
+> against the deployed API. The digest-page workflow (B) is **not built
+> yet**: the `/digest` endpoint and a tested Code-node script exist, but
+> there is no workflow that uses them.
 
-1. An admin adds a row to a Notion **Case Queue** with Status = `Queued`.
-2. n8n sees the row, sets `Processing`, and calls `POST /ingest`. The
-   decision is chunked and stored in Pinecone, then the row becomes
-   `Indexed` (or `Failed` with the error).
-3. n8n calls `POST /digest` and creates a page in a Notion **Case Digests**
-   database.
+### Workflow A: ingest (built)
 
-There is deliberately no public "save to Notion" button: writes need the
-ingest token and are admin-only.
+```
+Notion Case Queue
+  new row (Status = Queued)
+        │  n8n Notion Trigger, "Page added to database", polls every minute
+        ▼
+  GET  /health        wakes the sleeping Render service
+  Notion update       Status = Processing
+  POST /ingest        fetch the decision, chunk it, index it in Pinecone
+        │
+        ├─ success ─▶ Status = Indexed, Chunks = <count>, Indexed at = now
+        └─ error ───▶ Status = Failed,  Error = <message>
+```
+
+- The Case Queue properties are Title, Case ID, G.R. No., Date, Topic,
+  Source URL, Status, Chunks, Indexed at and Error. Case IDs must be
+  lowercase (`gr-101083`); the API rejects anything else.
+- `/ingest` replaces a case's chunks under stable ids, so queueing a case
+  again re-indexes it instead of duplicating it.
+- `/ingest` and `/digest` need an `X-Ingest-Token` header. n8n stores it as
+  a Header Auth credential; it is never committed.
+- There is deliberately no public "save to Notion" button: writes need that
+  token and are admin-only.
+
+Files: [`n8n/ingest.workflow.json`](n8n/ingest.workflow.json) (exported,
+credentials not included), plus the setup guides
+[`docs/notion-setup.md`](docs/notion-setup.md) and
+[`docs/n8n-setup.md`](docs/n8n-setup.md).
+
+### Workflow B: digest pages (not built)
+
+The plan is for n8n to call `POST /digest` after a successful ingest and
+create a page in a Notion **Case Digests** database, with one heading per
+section. [`n8n/build-digest-blocks.js`](n8n/build-digest-blocks.js) is the
+Code-node script that turns the `/digest` response into the Notion request
+(it splits text under Notion's block-size limit). It has been tested with
+sample data in Node, but not inside n8n or against Notion.
+
+### What to know
+
+- **n8n runs on the maintainer's machine** (`npx n8n`), not on a server. A
+  queued row is picked up only while n8n is running and the workflow is
+  active. It needs no public address because the trigger polls Notion.
+- **The free Render tier sleeps when idle**, so the workflow wakes it with a
+  `/health` call first. During setup one `/ingest` call returned
+  `502 Could not fetch the URL` from Render and did not recur; the API now
+  reports the reason (for example `HTTP 403` or `timeout`) so a repeat can
+  be diagnosed.
+- **The website's "How digests get into Notion" panel describes the full
+  intended flow,** including Workflow B. Until B exists, digests are
+  generated live in the chat and are not saved to Notion.
 
 ## Limitations
 

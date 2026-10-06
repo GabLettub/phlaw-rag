@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "dataSourceId": {
+          "__rl": true,
+          "value": "3f189c92-87b2-800e-8fff-000b2ed37581",
+          "mode": "list",
+          "cachedResultName": "Case Queue",
+          "cachedResultUrl": "https://app.notion.com/p/3f189c9287b280b89511fe7f6d3e0df0"
+        }
+      },
+      "type": "n8n-nodes-base.notionTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "7e99ab1d-9c9d-450a-8068-8ef2d6cab102",
+      "name": "Notion Trigger",
+      "credentials": {
+        "notionApi": {
+          "id": "wGqb40kpjdcPcOxO",
+          "name": "Notion account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "value": "={{ $('Notion Trigger').item.json.id }}",
+          "mode": "id"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|select",
+              "selectValue": "Processing"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 3,
+      "position": [
+        448,
+        0
+      ],
+      "id": "2ffd08aa-632b-4daa-bfbc-5b8e9076ba5f",
+      "name": "Update a database page",
+      "credentials": {
+        "notionApi": {
+          "id": "wGqb40kpjdcPcOxO",
+          "name": "Notion account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://phlaw-rag.onrender.com/ingest",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "url",
+              "value": "={{ $('Notion Trigger').item.json['Source URL'] }}"
+            },
+            {
+              "name": "case_id",
+              "value": "={{ $('Notion Trigger').item.json['Case ID'] }}"
+            },
+            {
+              "name": "title",
+              "value": "={{ $('Notion Trigger').item.json.Title }}"
+            },
+            {
+              "name": "gr_no",
+              "value": "={{ $('Notion Trigger').item.json['G.R. No.'] }}"
+            },
+            {
+              "name": "date",
+              "value": "={{ String($('Notion Trigger').item.json.Date.start).slice(0, 10) }}"
+            },
+            {
+              "name": "topic",
+              "value": "={{ $('Notion Trigger').item.json.Topic }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 180000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        672,
+        0
+      ],
+      "id": "8b1e2c36-1db5-4755-86ad-49b76f4c7078",
+      "name": "HTTP Request (ingest)",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "x0A8cvAXKlbYfBCL",
+          "name": "phlaw ingest token"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "url": "https://phlaw-rag.onrender.com/health",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "050480d2-96e3-480f-9621-a1adb1bd3275",
+      "name": "HTTP Request (wake-up)"
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "value": "={{ $('Notion Trigger').item.json.id }}",
+          "mode": "id"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|select",
+              "selectValue": "Indexed"
+            },
+            {
+              "key": "Chunks|number",
+              "numberValue": "={{ $json.chunks }}"
+            },
+            {
+              "key": "Indexed at|date",
+              "includeTime": "={{ $now }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 3,
+      "position": [
+        896,
+        -96
+      ],
+      "id": "56a56686-796d-430f-9ef2-1d146f072b09",
+      "name": "Notion (success)",
+      "credentials": {
+        "notionApi": {
+          "id": "wGqb40kpjdcPcOxO",
+          "name": "Notion account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "value": "={{ $('Notion Trigger').item.json.id }}",
+          "mode": "id"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|select",
+              "selectValue": "Failed"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 3,
+      "position": [
+        896,
+        96
+      ],
+      "id": "85dc8610-08e1-4279-8f5e-7643476fa801",
+      "name": "Notion (Error)",
+      "credentials": {
+        "notionApi": {
+          "id": "wGqb40kpjdcPcOxO",
+          "name": "Notion account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Notion Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request (wake-up)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update a database page": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request (ingest)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request (ingest)": {
+      "main": [
+        [
+          {
+            "node": "Notion (success)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion (Error)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request (wake-up)": {
+      "main": [
+        [
+          {
+            "node": "Update a database page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "17b9783f5169ea2f5f8a8524ffdef78a9df71f7f3e5fe05ad265050b13b304e1"
+  }
+}
