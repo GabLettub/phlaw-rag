@@ -6,7 +6,7 @@ from, and politely declines anything outside those six cases.
 
 | | |
 |---|---|
-| **Live demo** | _not deployed yet_ |
+| **Live demo** | phlaw-rag.vercel.app |
 | **Thesis version (v1)** | [phlaw-chatbot](https://github.com/GabLitob/phlaw-chatbot) |
 
 > **Not legal advice.** This is a portfolio prototype. Digests and answers
